@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"activity_id:ETI"2AWS::SimpleWorkflow::ActivityTask#activity_id;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"9@return [String] The unique identifier of this task.;T:
+@fileI"-lib/aws/simple_workflow/activity_task.rb;T:0@omit_headings_from_table_of_contents_below0F@I"&AWS::SimpleWorkflow::ActivityTask;FcRDoc::NormalClass0

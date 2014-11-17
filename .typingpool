@@ -1,0 +1,21 @@
+---
+amazon:
+  key: AKIAJAUFKGAIYIELF7KQ
+  secret: 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
+  bucket: typingpool-m0nv0jm2zrwv46p6
+transcripts: "~/transcripts"
+templates: "~/transcripts/templates"
+cache: "~/.typingpool.cache"
+assign:
+  confirm: true
+  reward: 0.75
+  deadline: 3h
+  approval: 1d
+  lifetime: 2d
+  qualify:
+  - approval_rate >= 95
+  - hits_approved >= 100
+  keywords:
+  - transcription
+  - audio
+  - mp3

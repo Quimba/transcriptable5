@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"delimiter:ETI"-AWS::S3::Tree::ChildCollection#delimiter;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[	I"CWhen looking at S3 keys as a tree, the delimiter defines what ;TI"Estring pattern seperates each level of the tree.  The delimiter ;TI".defaults to '/' (like in a file system). ;TI"@return [String];T:
+@fileI"(lib/aws/s3/tree/child_collection.rb;T:0@omit_headings_from_table_of_contents_below0F@I"#AWS::S3::Tree::ChildCollection;FcRDoc::NormalClass0

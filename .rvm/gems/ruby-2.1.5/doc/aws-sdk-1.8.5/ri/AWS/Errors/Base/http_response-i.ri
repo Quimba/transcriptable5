@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"http_response:ETI"$AWS::Errors::Base#http_response;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"J@return [Http::Response] The low level http response from the service;To:RDoc::Markup::Verbatim;	[I"$that wrapped the service error.;T:@format0:
+@fileI"lib/aws/errors.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::Errors::Base;FcRDoc::NormalClass0

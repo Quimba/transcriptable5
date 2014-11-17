@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"url:ETI"&Typingpool::Transcript::Chunk#url;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"DReturns the URL of the remote audio transcribed in the body of ;TI"this chunk.;T:
+@fileI"'lib/typingpool/transcript/chunk.rb;T:0@omit_headings_from_table_of_contents_below0F@I""Typingpool::Transcript::Chunk;FcRDoc::NormalClass0

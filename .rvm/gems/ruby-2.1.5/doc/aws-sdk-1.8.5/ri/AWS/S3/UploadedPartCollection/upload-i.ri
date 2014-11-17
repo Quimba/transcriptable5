@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"upload:ETI"+AWS::S3::UploadedPartCollection#upload;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"D@return [MultipartUpload] The upload to which the parts belong.;T:
+@fileI"+lib/aws/s3/uploaded_part_collection.rb;T:0@omit_headings_from_table_of_contents_below0F@I"$AWS::S3::UploadedPartCollection;FcRDoc::NormalClass0

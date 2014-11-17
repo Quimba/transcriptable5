@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"expires:ETI"#AWS::S3::PresignedPost#expires;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"?@return The expiration time for the signature.  By default;To:RDoc::Markup::Verbatim;	[I"=the signature will expire an hour after it is generated.;T:@format0:
+@fileI"!lib/aws/s3/presigned_post.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::S3::PresignedPost;FcRDoc::NormalClass0

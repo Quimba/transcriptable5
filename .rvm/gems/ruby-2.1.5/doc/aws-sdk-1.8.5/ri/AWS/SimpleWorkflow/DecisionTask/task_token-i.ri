@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"task_token:ETI"1AWS::SimpleWorkflow::DecisionTask#task_token;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"3@return [String] The decision task identifier.;T:
+@fileI"-lib/aws/simple_workflow/decision_task.rb;T:0@omit_headings_from_table_of_contents_below0F@I"&AWS::SimpleWorkflow::DecisionTask;FcRDoc::NormalClass0

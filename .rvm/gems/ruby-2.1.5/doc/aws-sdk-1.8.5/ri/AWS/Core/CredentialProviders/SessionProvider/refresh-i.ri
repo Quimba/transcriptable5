@@ -1,0 +1,3 @@
+U:RDoc::AnyMethod[iI"refresh:EFI"<AWS::Core::CredentialProviders::SessionProvider#refresh;FF:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"(see Provider#refresh);T:
+@fileI")lib/aws/core/credential_providers.rb;T:0@omit_headings_from_table_of_contents_below000[[I"orig_refresh;To;;	[o;
+;	[I"DAliasing the refresh method so we can call it from the refresh ;TI""method defined in this class.;T;@;0I"();T@FI"SessionProvider;FcRDoc::NormalClass00

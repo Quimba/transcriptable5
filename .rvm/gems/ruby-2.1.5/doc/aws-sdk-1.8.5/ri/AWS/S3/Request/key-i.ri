@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"key:ETI"AWS::S3::Request#key;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"#@return [String] S3 object key;T:
+@fileI"lib/aws/s3/request.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::S3::Request;FcRDoc::NormalClass0

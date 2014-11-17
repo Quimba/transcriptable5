@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	user:ETI"+Typingpool::Project::Remote::SFTP#user;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"=Returns the name of the user used to log in to the SFTP ;TI".server. This is et from Config#sftp#user.;T:
+@fileI"*lib/typingpool/project/remote/sftp.rb;T:0@omit_headings_from_table_of_contents_below0F@I"&Typingpool::Project::Remote::SFTP;FcRDoc::NormalClass0

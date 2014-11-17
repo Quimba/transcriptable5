@@ -1,0 +1,4 @@
+U:RDoc::Attr[iI"key:ETI"AWS::S3::PresignedPost#key;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"8@return [String] The key of the object that will be;To:RDoc::Markup::Verbatim;	[I"@uploaded.  If this is nil, then the object can be uploaded
+;TI">with any key that satisfies the conditions specified for
+;TI"the upload (see {#where}).;T:@format0:
+@fileI"!lib/aws/s3/presigned_post.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::S3::PresignedPost;FcRDoc::NormalClass0

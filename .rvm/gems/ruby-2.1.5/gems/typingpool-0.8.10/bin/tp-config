@@ -1,0 +1,114 @@
+#!/usr/bin/env ruby
+
+require 'typingpool'
+require 'highline'
+require 'highline/import'
+require 'securerandom'
+require 'fileutils'
+require 'optparse'
+require 'open3'
+
+options = {
+  :testing => false
+}
+OptionParser.new do |opts|
+  opts.banner = "USAGE: #{File.basename($PROGRAM_NAME)} [CONFIGFILE=#{Typingpool::Config.default_file}]\n\n"
+  opts.banner += "Installs or updates a Typingpool config file, prompting the user for\n"
+  opts.banner += "the minimal information to get up and running."
+  opts.on('--help',
+          'Display this screen.') do
+    puts opts
+    exit
+  end
+  opts.on('--test',
+          "Used by automated tests. Ignore.") do
+    options[:testing] = true
+  end
+end.parse!
+
+config_path = ARGV.first || Typingpool::Config.default_file
+config_path_full = File.expand_path(config_path)
+config = nil
+if File.exists? config_path_full
+  abort "Not a file: #{config_path}" unless File.file? config_path_full
+  STDERR.puts "Editing existing config file '#{config_path}'"
+  begin
+    config = Typingpool::Config.file(config_path_full) 
+  rescue ArgumentError, Psych::SyntaxError
+    abort "The specified config file is not valid YAML"
+  end #begin
+else
+  abort "Invalid path '#{config_path}'" unless File.dirname(config_path_full) && File.directory?(File.dirname(config_path_full))
+  STDERR.puts "Making a new config file at '#{config_path}'"
+  config = Typingpool::Config.from_bundled_template
+end #if File.exists? config_path
+
+config.amazon ||= {}
+config.amazon.key = ask('Your Amazon Web Services "Access Key ID"? '){|q| q.default = config.amazon.key if config.amazon.key }.to_s.chomp
+abort "Cannot proceed without an Amazon Access Key ID" if config.amazon.key.empty?
+config.amazon.secret = ask('Your Amazon Web Services "Secret Access Key"? '){|q| q.default = config.amazon.secret if config.amazon.secret }.to_s.chomp
+abort "Cannot proceed without an Amazon Secret Access Key" if config.amazon.secret.empty?
+
+unless options[:testing]
+  begin
+    RTurk.setup(config.amazon.key, config.amazon.secret, :sandbox => true)
+    RTurk.GetAccountBalance
+    STDERR.puts "Verified your new Amazon credentials"
+  rescue RTurk::InvalidRequest
+    abort "Your Amazon credentials do not appear to work. Please check them and run #{File.basename($PROGRAM_NAME)} again."
+  end #begin
+end
+
+if not(config.amazon.bucket || (config.sftp && config.sftp.user))
+  config.amazon.bucket = Typingpool::Project::Remote::S3.random_bucket_name
+end
+
+unless config.transcripts
+  desktop_path = File.expand_path(File.join('~', 'Desktop'))
+  if File.exists?(desktop_path) && File.directory?(desktop_path)
+    config.transcripts = File.join(desktop_path, 'Transcripts')
+  else
+    config.transcripts = File.join('~', 'transcripts')
+  end 
+end
+
+transcripts = nil
+loop do
+  transcripts = ask('Working directory/folder for transcripts? '){|q| q.default = config['transcripts'] }.to_s.chomp
+  abort "Cannot proceed without a transcripts directory" if transcripts.empty?
+  if File.exists?(File.expand_path(transcripts))
+    if File.directory?(File.expand_path(transcripts))
+      break
+    else
+      STDERR.puts "Location #{transcripts} already taken by a file"
+    end #if File.directory?...
+  else
+    FileUtils.mkdir(File.expand_path(transcripts))
+    break
+  end #if File.exists?...
+end #loop do
+config.transcripts = transcripts
+
+unless config.templates
+  transcripts_dir = File.basename(File.expand_path(config.transcripts))
+  transcripts_dir_capitalized = (transcripts_dir[0].upcase == transcripts_dir[0])
+  templates =  transcripts_dir_capitalized ? 'Templates' : 'templates'
+  config.templates = File.join(config['transcripts'], templates)
+  FileUtils.mkdir(config.templates) unless File.exists? config.templates
+end
+
+unless config.cache
+  config.cache = File.join('~', '.typingpool.cache')
+end
+
+File.open(config_path_full, 'w') do |out|
+  out << YAML.dump(config.to_hash)
+end
+
+STDERR.puts "Successfully wrote config to '#{config_path}'."
+
+Typingpool::App.if_missing_dependencies do |missing|
+  missing.map!{|cmd| "`#{cmd}`" }
+  them = missing.count > 1 ? 'them' : 'it'
+  STDERR.puts "By the way, it looks like you're missing #{Typingpool::Utility.join_in_english(missing)}. You'll need to install #{them} before Typingpool can run."
+end

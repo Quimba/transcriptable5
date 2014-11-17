@@ -1,0 +1,3 @@
+U:RDoc::Attr[iI"url:ETI"(Typingpool::Project::Remote::S3#url;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[
+I"<Returns the base URL, which is prepended to the remote ;TI"6files. This is either the 'url' attribute of the ;TI"BConfig#amazon value passed to Project::Remote::S3.new or, if ;TI"6that attribute is not set, the value returned by ;TI"@'default_url' (e.g. "https://bucketname.s3.amazonaws.com").;T:
+@fileI"(lib/typingpool/project/remote/s3.rb;T:0@omit_headings_from_table_of_contents_below0F@I"$Typingpool::Project::Remote::S3;FcRDoc::NormalClass0

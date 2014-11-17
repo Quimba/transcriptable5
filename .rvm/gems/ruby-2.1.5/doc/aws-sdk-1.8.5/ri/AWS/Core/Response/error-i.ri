@@ -1,0 +1,4 @@
+U:RDoc::Attr[iI"
+error:ETI"AWS::Core::Response#error;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"D@return [AWS::Error,nil] Returns nil unless the request failed.;To:RDoc::Markup::Verbatim;	[I"ENormally this will be nil unless you are using the Asynchronous
+;TI"interface.;T:@format0:
+@fileI"lib/aws/core/response.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::Core::Response;FcRDoc::NormalClass0

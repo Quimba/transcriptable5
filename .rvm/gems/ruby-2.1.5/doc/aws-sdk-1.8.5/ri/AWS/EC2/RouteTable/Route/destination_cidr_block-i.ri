@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"destination_cidr_block:ETI"7AWS::EC2::RouteTable::Route#destination_cidr_block;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I",@return [String] destination_cidr_block;T:
+@fileI"%lib/aws/ec2/route_table/route.rb;T:0@omit_headings_from_table_of_contents_below0F@I" AWS::EC2::RouteTable::Route;FcRDoc::NormalClass0

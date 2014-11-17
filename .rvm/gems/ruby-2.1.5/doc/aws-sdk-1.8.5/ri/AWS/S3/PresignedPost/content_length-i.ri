@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"content_length:ETI"*AWS::S3::PresignedPost#content_length;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"A@return [Range] The range of acceptable object sizes for the;To:RDoc::Markup::Verbatim;	[I"9upload.  By default any size object may be uploaded.;T:@format0:
+@fileI"!lib/aws/s3/presigned_post.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::S3::PresignedPost;FcRDoc::NormalClass0

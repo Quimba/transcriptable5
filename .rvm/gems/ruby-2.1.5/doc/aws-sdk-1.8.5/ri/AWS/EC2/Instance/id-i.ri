@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"id:ETI"AWS::EC2::Instance#id;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I".@return [String] Returns the instance id.;T:
+@fileI"lib/aws/ec2/instance.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::EC2::Instance;FcRDoc::NormalClass0

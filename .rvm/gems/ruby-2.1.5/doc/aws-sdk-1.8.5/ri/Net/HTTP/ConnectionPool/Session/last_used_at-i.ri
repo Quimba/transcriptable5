@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"last_used_at:ETI"4Net::HTTP::ConnectionPool::Session#last_used_at;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@return [Time];T:
+@fileI",lib/net/http/connection_pool/session.rb;T:0@omit_headings_from_table_of_contents_below0F@I"'Net::HTTP::ConnectionPool::Session;FcRDoc::NormalClass0

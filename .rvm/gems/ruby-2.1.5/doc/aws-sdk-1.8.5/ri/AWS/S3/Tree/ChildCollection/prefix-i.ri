@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"prefix:ETI"*AWS::S3::Tree::ChildCollection#prefix;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"GA tree may have a prefix of where in the bucket to be based from. ;TI"@return [String,nil];T:
+@fileI"(lib/aws/s3/tree/child_collection.rb;T:0@omit_headings_from_table_of_contents_below0F@I"#AWS::S3::Tree::ChildCollection;FcRDoc::NormalClass0

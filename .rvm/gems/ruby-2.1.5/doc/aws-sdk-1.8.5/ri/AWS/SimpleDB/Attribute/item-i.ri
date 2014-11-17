@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	item:ETI""AWS::SimpleDB::Attribute#item;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"7@return [Item] The item this attribute belongs to.;T:
+@fileI"#lib/aws/simple_db/attribute.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::SimpleDB::Attribute;FcRDoc::NormalClass0

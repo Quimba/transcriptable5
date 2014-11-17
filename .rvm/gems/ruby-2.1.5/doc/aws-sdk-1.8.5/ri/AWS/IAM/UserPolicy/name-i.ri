@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	name:ETI"AWS::IAM::UserPolicy#name;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I";@return [String] Returns the name of this user policy.;T:
+@fileI"lib/aws/iam/user_policy.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::IAM::UserPolicy;FcRDoc::NormalClass0

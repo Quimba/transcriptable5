@@ -1,0 +1,4032 @@
+# Logfile created on 2011-07-23 17:22:27 -0700
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Completed in 1ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.9ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (2.1ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-07-23 17:22:30) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Completed in 1ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.9ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (2.1ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-07-23 17:25:07) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.8ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (2.1ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-07-23 17:33:20) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Completed in 1ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/bare.rb
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (2.2ms)
+Completed in 5ms (View: 5 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (2.9ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-01 14:58:43) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Completed in 1ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/bare.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/render_default.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (0.9ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.2ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-01 15:00:27) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Completed in 3ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Completed in 1ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/bare.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/render_default.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (0.9ms)
+Completed in 3ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.2ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-01 15:00:47) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Completed in 1ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/bare.rb
+Completed in 3ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.9ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (1.1ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (2.5ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.9ms)
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-01 15:08:25) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Completed in 1ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/bare.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.0ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.2ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-01 15:09:25) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Completed in 1ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/bare.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.0ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.2ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-01 16:28:37) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 42ms (View: 42 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.7ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.7ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-07 16:06:53) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 69ms (View: 69 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/bare.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/render_default.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (0.9ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.0ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-07 16:08:48) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.7ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.9ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-09 20:22:04) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/bare.rb
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.9ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.9ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-10 15:00:45) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.8ms)
+Completed in 4ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.9ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-10 15:01:49) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Completed in 1ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/bare.rb
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.9ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.9ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-10 15:02:49) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Completed in 4ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/render_default.html.rb
+Completed in 6ms (View: 6 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (2.0ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.9ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.4ms)
+Completed in 3ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.9ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-13 09:46:23) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Completed in 15ms (View: 4 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/bare.rb
+Completed in 3ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.9ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (2.1ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-13 10:57:49) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+Completed in 25ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+Completed in 14ms (View: 13 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 7ms (View: 7 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+Rendering test/bare.rb
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+Rendering test/render_default.html.rb
+Completed in 36ms (View: 36 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-14 20:59:18) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-14 20:59:19) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-14 20:59:19) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (2.2ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-14 20:59:19) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-14 20:59:19) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-14 20:59:19) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (2.2ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-14 20:59:19) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.8ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-14 20:59:19) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-14 20:59:19) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-14 20:59:19) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-14 20:59:19) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-14 20:59:19) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-14 20:59:19) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/render_default.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.6ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.2ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.6ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Rendering test/render_default
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-17 07:42:04) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/render_default.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.6ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.2ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.6ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2011-08-17 07:44:48) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2011-08-17 07:44:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2011-08-17 07:44:49) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2011-08-17 07:44:49) [GET]
+Rendering test/render_default
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2011-08-17 07:44:49) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2012-05-22 17:34:51) [GET]
+Completed in 3ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2012-05-22 17:34:51) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2012-05-22 17:34:51) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2012-05-22 17:34:51) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2012-05-22 17:34:51) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2012-05-22 17:34:51) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2012-05-22 17:34:51) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2012-05-22 17:34:51) [GET]
+Completed in 1ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/needs.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.7ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.5ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.6ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (2.2ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.9ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Rendering test/render_default
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2012-05-22 17:34:52) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Completed in 3ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Completed in 1ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.5ms)
+Completed in 4ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.5ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.8ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Rendering test/render_default
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2012-05-22 17:35:23) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Completed in 1ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/render_default.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.4ms)
+Completed in 42ms (View: 42 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.3ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2012-08-12 10:23:10) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/bare.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/render_default.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (0.9ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.2ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2012-11-14 14:31:37) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Completed in 9ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Completed in 6ms (View: 5 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 8ms (View: 8 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 5ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/bare.rb
+Completed in 22ms (View: 21 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/render_default.html.rb
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/needs.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (7.6ms)
+Completed in 16ms (View: 16 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.8ms)
+Completed in 6ms (View: 6 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.6ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (4.2ms)
+Completed in 6ms (View: 6 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.2ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.8ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.8ms)
+Completed in 5ms (View: 5 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (3.3ms)
+Completed in 14ms (View: 14 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Rendering test/render_default
+Completed in 11ms (View: 11 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2012-12-02 13:36:45) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/bare.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/render_default.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (0.9ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.3ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2013-02-08 07:26:27) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/bare.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/render_default.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (0.9ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.2ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2013-02-08 07:28:00) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.4ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.6ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.8ms)
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2013-02-08 07:33:37) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/bare.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/render_default.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.3ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.1ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2013-02-08 07:38:39) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/bare.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.0ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.0ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2013-02-08 07:41:50) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/bare.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/render_default.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.0ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.3ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.2ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.3ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2013-02-08 07:51:31) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2013-02-08 07:51:32) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_explicit_assigns (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_class (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_instance (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_ignored_controller_variables (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_widget_with_extra_controller_variables (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+
+
+Processing TestController#render_with_content_method (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_rails_options (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Completed in 0ms (View: 0 | 500 Internal Server Error [http://test.host/]
+
+
+Processing TestController#render_template_with_implicit_assigns (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/implicit_assigns.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_protected_instance_variable (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/protected_instance_variable.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_bare_rb (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/bare.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/render_default.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_template_with_excess_variables (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/needs.html.rb
+
+
+Processing TestController#render_needs_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/needs.html.rb
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_needs_subclass_template_with_excess_variables_and_ignoring_extras (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/needs_subclass.html.rb
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_template_with_partial (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/render_partial.html.rb
+Rendered test/_erector (1.3ms)
+Completed in 4ms (View: 4 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erb_from_erector (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/erb_from_erector.html.rb
+Rendered test/_erb (0.4ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_from_erb (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/erector_from_erb.html.erb
+Rendered test/_erector (0.6ms)
+Completed in 2ms (View: 2 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (1.6ms)
+Completed in 3ms (View: 3 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_defaulted (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.6ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_override (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_with_locals_from_erb_not_needed (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+
+
+Processing TestController#render_erector_partial_with_unneeded_controller_variables (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.5ms)
+Completed in 2ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_erector_partial_without_controller_variables (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/erector_with_locals_from_erb.html.erb
+Rendered test/_partial_with_locals (0.4ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_default (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Rendering test/render_default
+Completed in 1ms (View: 1 | 200 OK [http://test.host/]
+
+
+Processing TestController#render_with_needs (for 0.0.0.0 at 2013-02-08 07:54:50) [GET]
+Completed in 1ms (View: 0 | 200 OK [http://test.host/]

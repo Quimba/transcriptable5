@@ -1,0 +1,27 @@
+[2014-11-17 04:48:38] __rvm_set_executable
+__rvm_set_executable () 
+{ 
+    for __file in "$@";
+    do
+        [[ -x "${__file}" ]] || chmod +x "${__file}";
+    done
+}
+current path: /home/ubuntu/.rvm/src/ruby-2.1.5
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ubuntu/.rvm/bin
+command(9): __rvm_set_executable /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/erb /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/gem /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/irb /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/rake /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/rdoc /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/ri /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/ruby /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/testrb
+++ /scripts/functions/gemset : __rvm_set_executable()  355 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  356 > [[ -x /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/erb ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  355 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  356 > [[ -x /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/gem ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  355 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  356 > [[ -x /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/irb ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  355 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  356 > [[ -x /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/rake ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  355 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  356 > [[ -x /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/rdoc ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  355 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  356 > [[ -x /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/ri ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  355 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  356 > [[ -x /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/ruby ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  355 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  356 > [[ -x /home/ubuntu/.rvm/rubies/ruby-2.1.5/bin/testrb ]]

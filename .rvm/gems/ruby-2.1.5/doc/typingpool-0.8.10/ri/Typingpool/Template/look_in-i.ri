@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"look_in:ETI"!Typingpool::Template#look_in;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[	I"GAn array of base paths to be searched when we're given a relative ;TI"=path to the template. Normally this includes the user's ;TI"EConfig#template attribute, if any, followed by the built-in app ;TI"template dir.;T:
+@fileI"lib/typingpool/template.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Typingpool::Template;FcRDoc::NormalClass0

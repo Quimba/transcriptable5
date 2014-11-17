@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"prefix:ETI",AWS::IAM::Collection::WithPrefix#prefix;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@@return [String] The path prefix by which the collection is;To:RDoc::Markup::Verbatim;	[I"filtered.;T:@format0:
+@fileI"lib/aws/iam/collection.rb;T:0@omit_headings_from_table_of_contents_below0F@I"%AWS::IAM::Collection::WithPrefix;FcRDoc::NormalModule0

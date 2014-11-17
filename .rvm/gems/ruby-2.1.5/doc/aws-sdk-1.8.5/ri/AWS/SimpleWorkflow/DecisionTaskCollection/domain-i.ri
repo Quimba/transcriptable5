@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"domain:ETI"7AWS::SimpleWorkflow::DecisionTaskCollection#domain;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@return [Domain];T:
+@fileI"8lib/aws/simple_workflow/decision_task_collection.rb;T:0@omit_headings_from_table_of_contents_below0F@I"0AWS::SimpleWorkflow::DecisionTaskCollection;FcRDoc::NormalClass0

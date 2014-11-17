@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"actions:ETI")AWS::Core::Policy::Statement#actions;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"C@return [Array] Returns an array of statement actions included;To:RDoc::Markup::Verbatim;	[I"by this policy statement.;T:@format0:
+@fileI"lib/aws/core/policy.rb;T:0@omit_headings_from_table_of_contents_below0F@I"!AWS::Core::Policy::Statement;FcRDoc::NormalClass0

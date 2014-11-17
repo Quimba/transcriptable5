@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"resource_type:ETI"2AWS::CloudFormation::StackEvent#resource_type;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"G@return [String] Type of the resource (e.g. 'AWS::EC2::Instance').;T:
+@fileI"+lib/aws/cloud_formation/stack_event.rb;T:0@omit_headings_from_table_of_contents_below0F@I"$AWS::CloudFormation::StackEvent;FcRDoc::NormalClass0

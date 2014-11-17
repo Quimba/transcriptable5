@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"retry_count:ETI"$AWS::Core::Response#retry_count;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I">@return [Integer] Returns the number of times the request;To:RDoc::Markup::Verbatim;	[I"was retried.;T:@format0:
+@fileI"lib/aws/core/response.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::Core::Response;FcRDoc::NormalClass0

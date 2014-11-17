@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"error_counts:ETI"3AWS::S3::Errors::BatchDeleteError#error_counts;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I">@return [Hash] Returns a hash of error codes and how many;To:RDoc::Markup::Verbatim;	[I"#objects failed with that code.;T:@format0:
+@fileI"lib/aws/s3/errors.rb;T:0@omit_headings_from_table_of_contents_below0F@I"&AWS::S3::Errors::BatchDeleteError;FcRDoc::NormalClass0

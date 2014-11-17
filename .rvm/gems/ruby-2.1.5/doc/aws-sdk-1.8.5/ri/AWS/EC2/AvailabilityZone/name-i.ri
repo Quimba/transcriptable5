@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	name:ETI"$AWS::EC2::AvailabilityZone#name;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@@return [String] Returns the name of the availability zone,;To:RDoc::Markup::Verbatim;	[I"e.g. "us-east-1a".;T:@format0:
+@fileI"%lib/aws/ec2/availability_zone.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::EC2::AvailabilityZone;FcRDoc::NormalClass0

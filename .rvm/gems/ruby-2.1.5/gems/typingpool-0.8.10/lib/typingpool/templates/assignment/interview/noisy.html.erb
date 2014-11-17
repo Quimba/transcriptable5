@@ -1,0 +1,12 @@
+<% self.title = 'Transcribe MP3 of ' + render('partials/length-description') + ' interview (background noise)' %>
+<%= render 'partials/header' %>
+<p id="description">I split up an interview into <%= render 'partials/length-description' %> parts, you transcribe the audio for one <%= render 'partials/length-description' %> part. There is background noise.</p>
+
+<%= render 'partials/voices' %>
+
+<%= render 'partials/labeling' %>
+
+<% self.important = ['The interview takes place in a noisy environment with audible chatter. You should transcribe <strong>only</strong> the comments from the people involved in the interview.'] %>
+<%= render 'partials/entry' %>
+
+<%= render 'partials/footer' %>

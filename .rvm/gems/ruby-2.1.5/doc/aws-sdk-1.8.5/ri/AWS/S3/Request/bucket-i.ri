@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"bucket:ETI"AWS::S3::Request#bucket;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"$@return [bucket] S3 bucket name;T:
+@fileI"lib/aws/s3/request.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::S3::Request;FcRDoc::NormalClass0

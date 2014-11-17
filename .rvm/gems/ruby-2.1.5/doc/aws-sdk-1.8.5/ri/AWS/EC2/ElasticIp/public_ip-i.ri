@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"public_ip:ETI""AWS::EC2::ElasticIp#public_ip;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I",@return [String] The public IP address.;T:
+@fileI"lib/aws/ec2/elastic_ip.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::EC2::ElasticIp;FcRDoc::NormalClass0

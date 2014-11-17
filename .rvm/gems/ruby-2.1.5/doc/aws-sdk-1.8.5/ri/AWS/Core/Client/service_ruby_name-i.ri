@@ -1,0 +1,4 @@
+U:RDoc::Attr[iI"service_ruby_name:ETI"(AWS::Core::Client#service_ruby_name;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"?@return [String] The snake-cased ruby name for the service;To:RDoc::Markup::Verbatim;	[I"+(e.g. 's3', 'iam', 'dynamo_db', etc).
+;T:@format0o;
+;	[I"@private;T:
+@fileI"lib/aws/core/client.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::Core::Client;FcRDoc::NormalClass0

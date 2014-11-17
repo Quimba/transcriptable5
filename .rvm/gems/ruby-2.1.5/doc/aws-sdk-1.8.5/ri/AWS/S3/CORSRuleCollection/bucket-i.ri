@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"bucket:ETI"'AWS::S3::CORSRuleCollection#bucket;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@return [Bucket];T:
+@fileI"'lib/aws/s3/cors_rule_collection.rb;T:0@omit_headings_from_table_of_contents_below0F@I" AWS::S3::CORSRuleCollection;FcRDoc::NormalClass0

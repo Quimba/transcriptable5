@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"log_wire_trace?:ETI".Net::HTTP::ConnectionPool#log_wire_trace?;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"J@return [Boolean] Returns +true+ when HTTP debug output (wire traces);To:RDoc::Markup::Verbatim;	[I"will be logged.;T:@format0:
+@fileI"$lib/net/http/connection_pool.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Net::HTTP::ConnectionPool;FcRDoc::NormalClass0

@@ -1,0 +1,4 @@
+U:RDoc::Attr[iI"metadata:ETI"$AWS::S3::PresignedPost#metadata;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"A@return [Hash] A hash of the metadata fields included in the;To:RDoc::Markup::Verbatim;	[I"@signed fields.  Additional metadata fields may be provided
+;TI"<with the upload as long as they satisfy the conditions
+;TI"-specified for the upload (see {#where}).;T:@format0:
+@fileI"!lib/aws/s3/presigned_post.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::S3::PresignedPost;FcRDoc::NormalClass0

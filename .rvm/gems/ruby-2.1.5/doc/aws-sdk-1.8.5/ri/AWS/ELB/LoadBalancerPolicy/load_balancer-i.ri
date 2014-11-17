@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"load_balancer:ETI"/AWS::ELB::LoadBalancerPolicy#load_balancer;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"M@return [LoadBalancer] Returns the load balancer this policy belongs to.;T:
+@fileI"(lib/aws/elb/load_balancer_policy.rb;T:0@omit_headings_from_table_of_contents_below0F@I"!AWS::ELB::LoadBalancerPolicy;FcRDoc::NormalClass0

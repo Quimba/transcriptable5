@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"instance_id:ETI"+AWS::AutoScaling::Instance#instance_id;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I">@return [String] instance_id Returns the EC2 id instance.;T:
+@fileI"%lib/aws/auto_scaling/instance.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::AutoScaling::Instance;FcRDoc::NormalClass0

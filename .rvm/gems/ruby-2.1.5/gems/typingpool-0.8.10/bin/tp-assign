@@ -1,0 +1,275 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'typingpool'
+require 'highline/import'
+include Typingpool::App::FriendlyExceptions
+include Typingpool::App::CLI::Formatter
+
+options = {
+  :keyword => [],
+  :qualify => [],
+  :time => Time.now
+}
+OptionParser.new do |opts|
+  options[:banner] = "USAGE: #{File.basename($PROGRAM_NAME)} PROJECT TEMPLATE [--reward 0.75]\n"
+  options[:banner] += "  [--deadline 3h] [--lifetime 2d] [--approval 1d] \n"
+  options[:banner] += "  [--qualify 'approval_rate >= 95' --qualify 'hits_approved > 10'...]\n"
+  options[:banner] += "  [--keyword transcription --keyword mp3...]\n"
+  options[:banner] += "  [--confirm] [--sandbox] [--config PATH]\n"
+  opts.banner = options[:banner]
+
+  opts.on('--project=PROJECT',
+          "Required. Path or name within", 
+          "$config_file:transcripts. Also accepted as",
+          "first argument to script or via STDIN") do |project|
+    options[:project] = project
+  end
+
+  opts.on('--template=TEMPLATE',
+          "Required. Path or name within dir",
+          "$config_file:app/templates/assign. Also", 
+          "accepted as first argument to script") do |template|
+    options[:template] = template
+  end
+
+  opts.on('--reward=DOLLARS',
+          "Default: $config_file:assign:reward.",
+          "Always in USD (Amazon only supports USD).",
+          "Per chunk. Format N.NN") do |reward|
+    options[:reward] = reward
+  end
+
+  opts.on('--keyword=WORD', 
+          "Default: $config_file:assign:keywords.",
+          "Repeatable") do |keyword|
+    options[:keyword].push(keyword)
+  end
+
+  timespec = 'N[.N]y|M(onths)|d|h|m(inutes)|s'
+
+  opts.on('--deadline=TIMESPEC',
+          'Default: $config:assign:deadline. Worker',
+          "time to transcribe.",
+          timespec) do |timespec|
+    options[:deadline] = timespec
+  end
+
+  opts.on('--lifetime=TIMESPEC',
+          'Default: $config:assign:lifetime.',
+          'Assignment time to expire.',
+          timespec) do |timespec|
+    options[:lifetime] = timespec
+  end
+
+  opts.on('--approval=TIMESPEC',
+          'Default: $config:assign:approval.',
+          'Submission time to auto approve.',
+          timespec) do |timespec|
+    options[:approval] = timespec
+  end
+
+  opts.on('--qualify=QUALIFICATION',
+          "Default: $config:assign:qualify.",
+          "Repeatable.",
+          "An RTurk::Qualifications::TYPES +",
+          ">|<|==|!=|true|exists|>=|<= [+ INT]") do |qualification|
+    options[:qualify].push(qualification)
+  end
+
+  opts.on('--confirm',
+          "Confirm the total cost of the assignments",
+          "before assigning even if",
+          "$config:assign:confirm is set to 'no'") do
+    options[:confirm] = true
+  end
+
+  opts.on('--sandbox',
+          "Test in Mechanical Turk's sandbox") do
+    options[:sandbox] = true
+  end
+
+  opts.on('--config=PATH',
+          'Default: ~/.typingpool') do |path|
+    options[:config] = path
+  end
+
+  opts.on('--testfixture=PATH',
+          'For testing purposes only. Ignore.',
+          'A VCR fixture for running with mock data.') do |fixture|
+    require 'typingpool/app/test'
+    options[:fixture] = fixture
+  end
+
+  opts.on('--testtime=EPOCH',
+              'For testing purposes only. Ignore.',
+              'Time to be used in place of Time.now.') do |epoch|
+    options[:time] = Time.at(epoch.to_i)
+  end
+
+  opts.on('--testfixturerecord',
+          'For testing purposes only. Ignore.',
+          'Allows recording of a new fixture',
+          'to --testfixture path.') do
+    options[:fixturerecord] = true
+  end
+
+  opts.on('--help',
+          'Display this screen') do
+    STDERR.puts opts
+    exit
+  end
+end.parse!
+
+config = Typingpool::App::CLI.config_from_arg(options[:config]) or abort "No config file at '#{options[:config]}'"
+
+if options[:keyword].count > 0
+  config.assign.keywords = []
+  config.assign.keywords.push(*options[:keyword])
+end
+
+[:reward, :deadline, :lifetime, :approval].each do |param|
+  with_friendly_exceptions("--#{param} argument", options[param]) do
+    config.assign.send("#{param.to_s}=", options[param]) if options[param]
+  end
+end #[:deadline, :lifetime, :approval].each...
+
+if options[:qualify].count > 0
+  config.assign['qualify'] = []
+  options[:qualify].each do |qualification|
+    with_friendly_exceptions('--qualify argument', qualification) do
+      config.assign.add_qualification(qualification)
+    end
+  end #options[:qualify].each...
+end #if options[:qualify].count > 0 
+
+options[:banner] += "\n#{Typingpool::App::CLI.help_arg_explanation}\n"
+
+positional = %w(project template)
+if Typingpool::Utility.stdin_has_content? && project = STDIN.gets
+  project.chomp!
+  abort "Duplicate project values (STDIN and --project)" if options[:project]
+  options[:project] = project
+  positional.shift
+end
+
+positional.each do |name|
+  arg = ARGV.shift
+  if options[name.to_sym]
+    abort "Duplicate values for #{name} (argument and --#{name})" if arg
+  else
+    options[name.to_sym] = arg or abort "Missing required arg #{name}\n\n#{options[:banner]}"
+  end
+end
+abort "Unexpected argument(s): #{ARGV.join(';')}" if ARGV.count > 0
+
+project = Typingpool::App::CLI.project_from_arg_and_config(options[:project], config)
+
+begin
+  template = Typingpool::Template::Assignment.from_config(options[:template], config)
+rescue Typingpool::Error::File::NotExists => e
+  abort "Couldn't find the template dir in your config file: #{e}"
+rescue Typingpool::Error => e
+  abort "Couldn't find your template: #{e}"
+end
+
+#always upload assignment html (can't re-use old ones because params
+#may have changed, affecting html output) #
+STDERR.puts "Figuring out what needs to be assigned"
+assignments = Typingpool::App.assignments_file_for_sandbox_status(options[:sandbox], project)
+needed_assignments = []
+unneeded_assignments = {
+  :complete => 0,
+  :outstanding => 0
+}
+assignments.each do |assignment|
+  if assignment['transcript']
+    unneeded_assignments[:complete] += 1
+    next
+  end
+  if assignment['hit_expires_at'].to_s.match(/\S/) #has been assigned previously
+    if ((Time.parse(assignment['hit_expires_at']) + assignment['hit_assignments_duration'].to_i) > options[:time])
+      #unexpired active HIT - do not reassign
+      unneeded_assignments[:outstanding] += 1
+      next
+    end
+  end
+  needed_assignments << assignment
+end
+STDERR.puts "#{assignments.count} assignments total"
+STDERR.puts "#{unneeded_assignments[:complete]} assignments completed" if unneeded_assignments[:complete] > 0
+STDERR.puts "#{unneeded_assignments[:outstanding]} assignments outstanding" if unneeded_assignments[:outstanding] > 0
+if needed_assignments.empty?
+  STDERR.puts "Nothing to assign"
+  exit
+end
+STDERR.puts "#{needed_assignments.count} assignments to assign"
+
+Typingpool::Amazon.setup(:sandbox => options[:sandbox], :config => config)
+
+if options[:fixture]
+  Typingpool::App.vcr_load(options[:fixture], config, not(options[:fixturerecord]), {
+                             :preserve_exact_body_bytes => true,
+                             :match_requests_on => [:method, Typingpool::App.vcr_core_host_matcher]
+                           })
+  at_exit{ Typingpool::App.vcr_stop }
+end
+
+#Are there enough funds for this assignment?
+cost = 0
+amazon_minimum_fee = 0.005
+amazon_fee_per_assignment = config.assign.reward.to_f * 0.1
+amazon_fee_per_assignment = amazon_minimum_fee if amazon_fee_per_assignment < amazon_minimum_fee
+cost = (needed_assignments.count * (config.assign.reward.to_f + amazon_fee_per_assignment) * 100).ceil.to_f / 100
+cost_string = sprintf("%.2f", cost)
+if options[:sandbox]
+  STDERR.puts "(Cost is $0 (nothing) since you're in the sandbox. Outside the sandbox this assignment would cost $#{cost_string}.)"
+else
+  STDERR.puts "Checking your balance"
+  balance = RTurk.GetAccountBalance.amount
+  #"* 1.1" reflects 10% Amazon service surcharge
+  abort "Anticipated assignment cost of $#{cost_string} would exceed available balance of $#{balance}" if cost > balance
+  if options[:confirm] || config.assign.confirm
+    begin
+      input = ask("Assignment cost is $#{cost_string}. Proceed? [#{cli_bold('y')}es]/#{cli_bold('n')}o:") 
+    end until input.to_s.match(/(^y)|(^n)|(^\s*$)/i)
+    exit if input.match(/^n/i)
+  end
+end #if options[:sandbox]
+
+
+#we'll need to re-upload audio if we ran tp-finish on the project
+#or if our last attempt to upload audio failed partway through
+Typingpool::App.upload_audio_for_project(project) do |file, as|
+  puts "Uploading #{File.basename(file)} to #{project.remote.host}/#{project.remote.path} as #{as}"
+end
+
+#Delete old assignment html for assignments to be re-assigned. We
+#can't re-use old assignment HTML because new params (e.g. reward)
+#might cause the new HTML to be different
+STDERR.puts "Deleting old assignment HTML from #{project.remote.host}"
+Typingpool::App.updelete_assignment_assets(project, assignments, needed_assignments, ['assignment'])
+
+STDERR.puts "Uploading assignment HTML to #{project.remote.host}"
+urls = Typingpool::App.upload_html_for_project_assignments(project, assignments, needed_assignments, template)
+
+STDERR.puts (options[:sandbox] ? 'Assigning (in sandbox)' : 'Assigning')
+needed_assignments.each_with_index do |assignment, i|
+  question = Typingpool::Amazon::Question.new(urls[i], template.render(assignment))
+  begin
+    hit = Typingpool::Amazon::HIT.create(question, config.assign)
+    Typingpool::App.record_assigned_hits_in_assignments_file(assignments, [hit])
+  rescue RTurk::RTurkError => e
+    goodbye = "Mechanical Turk error: #{e}\n\n"
+    if i == 0
+      goodbye += "To retry, run tp-assign again with the same arguments."
+    else
+      goodbye += "To cancel #{i} successful assignments, run `tp-finish '#{options[:project]}'`.\n\n"
+      goodbye += "To try and assign remaining #{needed_assignments.count - i} jobs, run tp-assign again with the same arguments."
+    end #if i == 0
+    abort goodbye
+  end #begin
+  STDERR.puts "  Assigned transcription job for '#{project.class.local_basename_from_url(assignment['audio_url'])}'"
+end #needed_assignments.each_with_index do...
+STDERR.puts "Assigned #{needed_assignments.count} transcription jobs for $#{cost_string}"
+STDERR.puts "Remaining balance: $#{RTurk.GetAccountBalance.amount}" unless options[:sandbox]

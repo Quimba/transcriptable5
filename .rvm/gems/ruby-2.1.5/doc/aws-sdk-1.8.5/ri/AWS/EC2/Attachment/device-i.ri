@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"device:ETI" AWS::EC2::Attachment#device;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"G@return [String] Returns how the device is exposed to the instance;To:RDoc::Markup::Verbatim;	[I"(e.g. '/dev/sdh');T:@format0:
+@fileI"lib/aws/ec2/attachment.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::EC2::Attachment;FcRDoc::NormalClass0

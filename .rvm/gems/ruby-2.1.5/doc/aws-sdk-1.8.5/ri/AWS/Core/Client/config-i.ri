@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"config:ETI"AWS::Core::Client#config;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"8@return [Configuration] This clients configuration.;T:
+@fileI"lib/aws/core/client.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::Core::Client;FcRDoc::NormalClass0

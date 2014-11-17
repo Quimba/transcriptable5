@@ -1,0 +1,173 @@
+#!/usr/bin/env ruby
+
+require 'typingpool'
+require 'highline/import'
+require 'optparse'
+include Typingpool::App::CLI::Formatter
+
+options = {}
+OptionParser.new do |commands|
+  options[:banner] =  "USAGE: #{File.basename($PROGRAM_NAME) } [PROJECT]\n"
+  options[:banner] += "  [--config PATH] [--sandbox]\n"
+  commands.banner = options[:banner]
+
+  commands.on('--project=PROJECT',
+              'Path or name within dir $config_file:transcripts.',
+              'Also accepted as first argument to script.',
+              'If not specified, reviews pending results',
+              'for ALL projects') do |project|
+    options[:project] = project
+  end
+  commands.on('--config=PATH',
+              'Default: ~/.typingpool') do |path|
+    options[:config] = path
+  end
+  commands.on('--sandbox',
+              'Test in Mechanical Turk\'s sandbox') do |sandbox|
+    options[:sandbox] = true
+  end
+  commands.on('--fixture=PATH',
+              "Optional. For testing purposes only.",
+              "A VCR fixture for running with mock data") do |fixture|
+    require 'typingpool/app/test'
+    options[:fixture] = fixture
+  end
+  commands.on('--help',
+              "Display this screen") do
+    STDERR.puts commands
+    exit
+  end
+end.parse!
+
+config = Typingpool::App::CLI.config_from_arg(options[:config]) or abort "No config file at '#{options[:config]}'"
+options[:banner] += "\n#{Typingpool::App::CLI.help_arg_explanation}\n"
+
+if ARGV.count > 0
+  if options[:project]
+    abort "Duplicate project values ('#{ARGV[0]}' and '#{options[:project]}')"
+  end
+  options[:project] = ARGV.shift
+end
+abort "Unexpected argument(s): #{ARGV.join(';')}" if ARGV.count > 0
+
+if options[:project]
+  options[:project] = Typingpool::App::CLI.project_from_arg_and_config(options[:project], config)
+end
+
+if options[:fixture]
+  Typingpool::App.vcr_load(options[:fixture], config, true)
+  at_exit{ Typingpool::App.vcr_stop }
+end
+
+Typingpool::Amazon.setup(:sandbox => options[:sandbox], :config => config)
+
+assignments = Typingpool::App.assignments_file_for_sandbox_status(options[:sandbox], options[:project]) if options[:project]
+STDERR.puts "Gathering submissions from Amazon"
+hits = if options[:project] && ((hit_ids = assignments.map{|assignment| assignment['hit_id'] }.select{|hit_id| hit_id }).count > 0)
+         Typingpool::Amazon::HIT.with_ids(hit_ids).select{|hit| hit.submitted? }
+       else
+         hits = Typingpool::Amazon::HIT.all_reviewable{|hit| hit.submitted? && hit.ours? }
+         if options[:project]
+           #code path for projects assigned through RUI
+           hits.select!{|hit| hit.project_id == options[:project].local.id }
+         end
+         hits
+       end
+
+STDERR.puts "Matching submissions with local projects"
+choices = %w(approve reject quit skip)
+catch :quitting do
+  project_hits = Typingpool::App.find_projects_waiting_for_hits(hits, config) 
+  all_hits = project_hits.map{|hash| hash[:hits] }.flatten
+  i = 0
+  project_hits.each do |hash|
+    hits = hash[:hits]
+    project = hash[:project]
+    assignments = Typingpool::App.assignments_file_for_sandbox_status(options[:sandbox], project)
+    hits.sort!{|a, b| a.url <=> b.url }
+    hits.each do |hit|
+      i += 1
+      say(cli_bold("\nTranscript for: ") + hit.url)
+      project_info = cli_bold("Project: ") + project.name
+      if project.local.subtitle
+        project_info += ": #{project.local.subtitle}"
+      end
+      say(cli_encode(project_info))
+      say(cli_bold("Submitted at: ") +
+          hit.assignment.submitted_at.localtime.to_s +
+          cli_bold(" by ") +
+          hit.assignment.worker_id)
+      say(cli_encode(hit.transcript.body_as_text(4, 68)))
+      prompt = choices.map do |c| 
+        cli_reverse('(') +
+          cli_reverse(cli_bold(c.slice(0).upcase)) +
+          cli_reverse(")#{c.slice(1, c.size)}") 
+      end
+      prompt << cli_reverse('[') + prompt.pop + cli_reverse(']')
+      prompt = prompt.join(cli_reverse(', ')) 
+      prompt += cli_reverse('? ')
+      prompt += cli_reverse("(#{i}/#{all_hits.count}) ")
+
+      choice=nil
+      until choice
+        input = ask(prompt)
+        if input.to_s.match(/^\s*$/)
+          choice = choices.last
+        elsif not(choice = choices.detect{|possible| possible[0] == input.downcase[0] })
+          say("Invalid selection '#{input}'.")
+        end
+      end #until choice
+
+      case choice
+      when 'approve'
+        begin
+          hit.assignment.at_amazon.approve!
+        rescue RTurk::InvalidRequest => exception
+            #assignment may have passed its approval deadline since
+            #the session started and has been auto approved. In that
+            #case, add to the transcript; no need to tell the user.
+          unless exception.message.match(/AWS.MechanicalTurk.InvalidAssignmentState\b.+\bstatus of:\s*Submitted/i)
+            #different issue than auto approval; raise exception
+            raise exception
+          end
+        end #begin
+        Typingpool::App.record_approved_hits_in_assignments_file(assignments, [hit])
+        Typingpool::App.create_transcript(project, assignments)
+        say(cli_bold("Approved. ") + "#{cli_encode(project.name)} transcript updated.\n")
+      when 'reject'
+        reason=nil
+        until reason.to_s.match(/\S/)
+          reason = ask("Rejection reason, for worker: ")
+        end
+        begin
+          hit.assignment.at_amazon.reject!(reason)
+          hit.at_amazon.dispose!
+        rescue RTurk::InvalidRequest => exception
+          #see comment under 'approve' case above
+          if exception.message.match(/AWS.MechanicalTurk.InvalidAssignmentState\b.+\bstatus of:\s*Submitted/i)
+            say(cli_bold("Not rejected:") + " This assignment passed its approval deadline since this session began and the assignment has been auto-approved. It will be deleted, but you've been charged for this assignment and your rejection message will not be delivered.")
+            hit.remove_from_amazon
+          else
+            raise exception
+          end
+        else
+          say(cli_bold("Rejected\n"))
+        end #begin
+        Typingpool::App.unrecord_hits_in_assignments_file(assignments, [hit])
+      when 'quit'
+        say(cli_bold("Quitting"))
+        throw :quitting
+      when 'skip'
+        say(cli_bold("Skipping\n"))
+        next
+      end #case choice
+    end #hits.each_with_index
+
+  end #find_projects_waiting_for(...) do
+end #catch :quitting do
+
+#Put project path on STDOUT so script can be pipelined, e.g.
+#`tp-review Foo | tp-finish`
+if options[:project]
+  puts options[:project].local.path
+end

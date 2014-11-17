@@ -1,0 +1,11 @@
+<% self.title = 'Transcribe MP3 of ' + render('partials/length-description') + ' interview' %>
+<%= render 'partials/header' %>
+<p id="description">I split up an interview into <%= render 'partials/length-description' %> parts, you transcribe the audio for one <%= render 'partials/length-description' %> part.</p>
+
+<%= render 'interview/partials/voices' %>
+
+<%= render 'partials/labeling' %>
+
+<%= render 'partials/entry' %>
+
+<%= render 'partials/footer' %>

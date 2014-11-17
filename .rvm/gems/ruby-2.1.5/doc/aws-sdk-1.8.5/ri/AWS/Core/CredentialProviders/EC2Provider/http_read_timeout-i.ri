@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"http_read_timeout:ETI"BAWS::Core::CredentialProviders::EC2Provider#http_read_timeout;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@return [Float];T:
+@fileI")lib/aws/core/credential_providers.rb;T:0@omit_headings_from_table_of_contents_below0F@I"0AWS::Core::CredentialProviders::EC2Provider;FcRDoc::NormalClass0

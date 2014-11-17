@@ -1,0 +1,5 @@
+U:RDoc::Attr[iI"glacier_transition_time:ETI"HAWS::S3::BucketLifecycleConfiguration::Rule#glacier_transition_time;FI"R;T:publico:RDoc::Markup::Document:@parts[	o:RDoc::Markup::Paragraph;	[I"0@return [Date] the date the objects will be;To:RDoc::Markup::Verbatim;	[I"8transitioned into the Amazon Glacier storage tier.
+;T:@format0o;
+;	[I"E@return [Integer] if the value is an integer, returns the number;To;;	[I"Gof days before the object is transitioned into the Amazon Glacier
+;TI"storage tier.;T;0:
+@fileI"1lib/aws/s3/bucket_lifecycle_configuration.rb;T:0@omit_headings_from_table_of_contents_below0F@I"0AWS::S3::BucketLifecycleConfiguration::Rule;FcRDoc::NormalClass0

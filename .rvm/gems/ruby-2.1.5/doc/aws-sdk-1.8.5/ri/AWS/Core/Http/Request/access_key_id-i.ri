@@ -1,0 +1,4 @@
+U:RDoc::Attr[iI"access_key_id:ETI"+AWS::Core::Http::Request#access_key_id;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"I@return [String] Returns the AWS access key ID used to authorize the;To:RDoc::Markup::Verbatim;	[I"request.
+;T:@format0o;
+;	[I"@private;T:
+@fileI"!lib/aws/core/http/request.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::Core::Http::Request;FcRDoc::NormalClass0

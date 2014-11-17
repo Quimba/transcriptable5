@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"duration:ETI"!AWS::Core::Response#duration;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"B@return [Float] The total number of seconds taken to make the;To:RDoc::Markup::Verbatim;	[I"%request and return the response.;T:@format0:
+@fileI"lib/aws/core/response.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::Core::Response;FcRDoc::NormalClass0

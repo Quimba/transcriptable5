@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	code:ETI"AWS::Errors::Base#code;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"=@return [String] The response code given by the service.;T:
+@fileI"lib/aws/errors.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::Errors::Base;FcRDoc::NormalClass0

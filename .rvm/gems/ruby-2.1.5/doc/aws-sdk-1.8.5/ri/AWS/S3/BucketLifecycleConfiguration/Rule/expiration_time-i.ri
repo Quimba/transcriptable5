@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"expiration_time:ETI"@AWS::S3::BucketLifecycleConfiguration::Rule#expiration_time;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"5@return [Date] the date the objects will expire ;TI"E@return [Integer] if the value is an integer, returns the number;To:RDoc::Markup::Verbatim;	[I"+of days before the object will expire.;T:@format0:
+@fileI"1lib/aws/s3/bucket_lifecycle_configuration.rb;T:0@omit_headings_from_table_of_contents_below0F@I"0AWS::S3::BucketLifecycleConfiguration::Rule;FcRDoc::NormalClass0

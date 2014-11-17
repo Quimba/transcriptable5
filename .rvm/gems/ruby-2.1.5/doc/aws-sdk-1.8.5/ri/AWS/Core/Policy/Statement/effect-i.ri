@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"effect:ETI"(AWS::Core::Policy::Statement#effect;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"E@return [String] Returns the statement effect, either "Allow" or;To:RDoc::Markup::Verbatim;	[I""Deny";T:@format0:
+@fileI"lib/aws/core/policy.rb;T:0@omit_headings_from_table_of_contents_below0F@I"!AWS::Core::Policy::Statement;FcRDoc::NormalClass0

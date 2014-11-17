@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"logical_resource_id:ETI"8AWS::CloudFormation::StackEvent#logical_resource_id;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"A@return [String] The logical name of the resource specified ;To:RDoc::Markup::Verbatim;	[I"in the template.;T:@format0:
+@fileI"+lib/aws/cloud_formation/stack_event.rb;T:0@omit_headings_from_table_of_contents_below0F@I"$AWS::CloudFormation::StackEvent;FcRDoc::NormalClass0

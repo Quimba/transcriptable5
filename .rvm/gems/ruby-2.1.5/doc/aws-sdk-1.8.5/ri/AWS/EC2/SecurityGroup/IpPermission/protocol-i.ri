@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"protocol:ETI"3AWS::EC2::SecurityGroup::IpPermission#protocol;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"6@return [Symbol] The protocol (:tcp, :udp, :icmp);T:
+@fileI"0lib/aws/ec2/security_group/ip_permission.rb;T:0@omit_headings_from_table_of_contents_below0F@I"*AWS::EC2::SecurityGroup::IpPermission;FcRDoc::NormalClass0

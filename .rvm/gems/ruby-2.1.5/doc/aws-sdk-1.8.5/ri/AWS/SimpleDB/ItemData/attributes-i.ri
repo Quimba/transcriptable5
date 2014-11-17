@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"attributes:ETI"'AWS::SimpleDB::ItemData#attributes;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"B@return [Hash] A hash of attribute names to arrays of values.;T:
+@fileI"#lib/aws/simple_db/item_data.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::SimpleDB::ItemData;FcRDoc::NormalClass0

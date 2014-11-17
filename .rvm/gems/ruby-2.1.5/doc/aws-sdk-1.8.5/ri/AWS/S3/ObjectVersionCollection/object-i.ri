@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"object:ETI",AWS::S3::ObjectVersionCollection#object;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I">@return [S3Object] The object this collection belongs to.;T:
+@fileI",lib/aws/s3/object_version_collection.rb;T:0@omit_headings_from_table_of_contents_below0F@I"%AWS::S3::ObjectVersionCollection;FcRDoc::NormalClass0

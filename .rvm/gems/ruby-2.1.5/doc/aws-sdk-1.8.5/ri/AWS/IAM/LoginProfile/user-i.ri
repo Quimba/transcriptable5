@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	user:ETI" AWS::IAM::LoginProfile#user;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"=@attr_reader [User] The user to which this login profile;To:RDoc::Markup::Verbatim;	[I"belongs.;T:@format0:
+@fileI"!lib/aws/iam/login_profile.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::IAM::LoginProfile;FcRDoc::NormalClass0

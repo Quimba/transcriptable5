@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	host:ETI"+Typingpool::Project::Remote::SFTP#host;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"=Returns the remote host (server) name. This is set from ;TI"Config#sftp#host.;T:
+@fileI"*lib/typingpool/project/remote/sftp.rb;T:0@omit_headings_from_table_of_contents_below0F@I"&Typingpool::Project::Remote::SFTP;FcRDoc::NormalClass0

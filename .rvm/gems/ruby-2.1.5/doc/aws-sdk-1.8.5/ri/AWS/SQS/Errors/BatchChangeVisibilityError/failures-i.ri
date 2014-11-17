@@ -1,0 +1,8 @@
+U:RDoc::Attr[iI"failures:ETI":AWS::SQS::Errors::BatchChangeVisibilityError#failures;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"?@return [Array<Hash>] Returns a list of hashes.  Each hash;To:RDoc::Markup::Verbatim;	[I"Bcontains information about one message that failed to change
+;TI"$visibility. Hash keys include:
+;TI"
+;TI"* +:error_code+
+;TI"* +:error_message+
+;TI"* +:sender_fault+
+;TI"* +:receipt_handle+;T:@format0:
+@fileI"lib/aws/sqs/errors.rb;T:0@omit_headings_from_table_of_contents_below0F@I"1AWS::SQS::Errors::BatchChangeVisibilityError;FcRDoc::NormalClass0

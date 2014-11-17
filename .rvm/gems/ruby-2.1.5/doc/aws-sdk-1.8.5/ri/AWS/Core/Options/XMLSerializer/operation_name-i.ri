@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"operation_name:ETI"5AWS::Core::Options::XMLSerializer#operation_name;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"<@return [String] Returns the name of the API operation.;T:
+@fileI"+lib/aws/core/options/xml_serializer.rb;T:0@omit_headings_from_table_of_contents_below0F@I"&AWS::Core::Options::XMLSerializer;FcRDoc::NormalClass0

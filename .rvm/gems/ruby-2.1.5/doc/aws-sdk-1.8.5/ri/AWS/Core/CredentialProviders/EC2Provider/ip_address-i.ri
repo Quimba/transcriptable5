@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"ip_address:ETI";AWS::Core::CredentialProviders::EC2Provider#ip_address;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"4@return [String] Defaults to '169.254.169.254'.;T:
+@fileI")lib/aws/core/credential_providers.rb;T:0@omit_headings_from_table_of_contents_below0F@I"0AWS::Core::CredentialProviders::EC2Provider;FcRDoc::NormalClass0

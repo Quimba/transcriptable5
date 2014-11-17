@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"workflow_execution:ETI"9AWS::SimpleWorkflow::HistoryEvent#workflow_execution;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"D@return [WorkflowExecution] The workflow execution this history;To:RDoc::Markup::Verbatim;	[I"event belongs to.;T:@format0:
+@fileI"-lib/aws/simple_workflow/history_event.rb;T:0@omit_headings_from_table_of_contents_below0F@I"&AWS::SimpleWorkflow::HistoryEvent;FcRDoc::NormalClass0

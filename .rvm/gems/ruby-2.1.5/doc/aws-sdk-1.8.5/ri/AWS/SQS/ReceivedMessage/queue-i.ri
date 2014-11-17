@@ -1,0 +1,3 @@
+U:RDoc::Attr[iI"
+queue:ETI"$AWS::SQS::ReceivedMessage#queue;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I":@return [Queue] The queue from which this message was;To:RDoc::Markup::Verbatim;	[I"received.;T:@format0:
+@fileI"$lib/aws/sqs/received_message.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::SQS::ReceivedMessage;FcRDoc::NormalClass0

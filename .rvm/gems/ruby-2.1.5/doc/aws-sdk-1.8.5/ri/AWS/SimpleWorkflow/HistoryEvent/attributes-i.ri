@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"attributes:ETI"1AWS::SimpleWorkflow::HistoryEvent#attributes;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"C@return [Attributes] Returns an object that provides hash-like;To:RDoc::Markup::Verbatim;	[I",access to the history event attributes.;T:@format0:
+@fileI"-lib/aws/simple_workflow/history_event.rb;T:0@omit_headings_from_table_of_contents_below0F@I"&AWS::SimpleWorkflow::HistoryEvent;FcRDoc::NormalClass0

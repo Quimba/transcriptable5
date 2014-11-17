@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"workflow_id:ETI"7AWS::SimpleWorkflow::WorkflowExecution#workflow_id;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"8@return [String] The workflow id of this execution.;T:
+@fileI"2lib/aws/simple_workflow/workflow_execution.rb;T:0@omit_headings_from_table_of_contents_below0F@I"+AWS::SimpleWorkflow::WorkflowExecution;FcRDoc::NormalClass0

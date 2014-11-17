@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"metric:ETI"2AWS::CloudWatch::MetricAlarmCollection#metric;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@return [Metric];T:
+@fileI"3lib/aws/cloud_watch/metric_alarm_collection.rb;T:0@omit_headings_from_table_of_contents_below0F@I"+AWS::CloudWatch::MetricAlarmCollection;FcRDoc::NormalClass0

@@ -1,0 +1,5 @@
+U:RDoc::Attr[iI"ignored_fields:ETI"*AWS::S3::PresignedPost#ignored_fields;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@@return [Array<String>] Additional fields which may be sent;To:RDoc::Markup::Verbatim;	[I"?with the upload.  These will be included in the policy so
+;TI";that they can be sent with any value.  S3 will ignore
+;TI"
+them.;T:@format0:
+@fileI"!lib/aws/s3/presigned_post.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::S3::PresignedPost;FcRDoc::NormalClass0

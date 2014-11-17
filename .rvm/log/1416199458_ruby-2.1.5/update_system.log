@@ -1,0 +1,79 @@
+[2014-11-17 04:44:18] requirements_debian_update_system
+requirements_debian_update_system () 
+{ 
+    __rvm_try_sudo apt-get --quiet --yes update || { 
+        typeset __ret=$?;
+        case ${__ret} in 
+            100)
+                rvm_error "There has been error while updating 'apt-get', please give it some time and try again later.
+For 404 errors check your sources configured in:
+    /etc/apt/sources.list
+    /etc/apt/sources.list.d/*.list
+"
+            ;;
+        esac;
+        return ${__ret}
+    }
+}
+current path: /home/ubuntu/.rvm/src/rvm
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ubuntu/.rvm/bin
+command(2): requirements_debian_update_system ruby-2.1.5
+++ /scripts/functions/requirements/ubuntu : requirements_debian_update_system()  41 > __rvm_try_sudo apt-get --quiet --yes update
+++ /scripts/functions/utility : __rvm_try_sudo()  358 > typeset -a command_to_run
+++ /scripts/functions/utility : __rvm_try_sudo()  359 > typeset sudo_path sbin_path missing_paths
+++ /scripts/functions/utility : __rvm_try_sudo()  360 > command_to_run=("$@")
+++ /scripts/functions/utility : __rvm_try_sudo()  361 > ((  UID == 0  ))
+++ /scripts/functions/utility : __rvm_try_sudo()  362 > case "$rvm_autolibs_flag_number" in
+++ /scripts/functions/utility : __rvm_try_sudo()  377 > is_a_function __rvm_sudo
+++ /scripts/functions/support : is_a_function()  5 > typeset -f __rvm_sudo
+++ /scripts/functions/utility : __rvm_try_sudo()  379 > missing_paths=
+++ /scripts/functions/utility : __rvm_try_sudo()  380 > for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ /scripts/functions/utility : __rvm_try_sudo()  382 > [[ -d /sbin ]]
+++ /scripts/functions/utility : __rvm_try_sudo()  382 > [[ ! :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ubuntu/.rvm/bin: =~ :/sbin: ]]
+++ /scripts/functions/utility : __rvm_try_sudo()  380 > for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ /scripts/functions/utility : __rvm_try_sudo()  382 > [[ -d /usr/sbin ]]
+++ /scripts/functions/utility : __rvm_try_sudo()  382 > [[ ! :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ubuntu/.rvm/bin: =~ :/usr/sbin: ]]
+++ /scripts/functions/utility : __rvm_try_sudo()  380 > for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ /scripts/functions/utility : __rvm_try_sudo()  382 > [[ -d /usr/local/sbin ]]
+++ /scripts/functions/utility : __rvm_try_sudo()  382 > [[ ! :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ubuntu/.rvm/bin: =~ :/usr/local/sbin: ]]
+++ /scripts/functions/utility : __rvm_try_sudo()  386 > [[ -n '' ]]
+++ /scripts/functions/utility : __rvm_try_sudo()  389 > command_to_run=(__rvm_sudo -p "%p password required for '$*': " "${command_to_run[@]}")
+++ /scripts/functions/utility : __rvm_try_sudo()  396 > __rvm_sudo -p '%p password required for '\''apt-get --quiet --yes update'\'': ' apt-get --quiet --yes update
+++ /scripts/functions/support : __rvm_sudo()  311 > command sudo -p '%p password required for '\''apt-get --quiet --yes update'\'': ' apt-get --quiet --yes update
+++ /scripts/functions/support : __rvm_sudo()  311 > sudo -p '%p password required for '\''apt-get --quiet --yes update'\'': ' apt-get --quiet --yes update
+Ign http://security.ubuntu.com trusty-security InRelease
+Ign http://ppa.launchpad.net trusty InRelease
+Ign http://us-west-2.ec2.archive.ubuntu.com trusty InRelease
+Hit http://security.ubuntu.com trusty-security Release.gpg
+Hit http://security.ubuntu.com trusty-security Release
+Ign http://us-west-2.ec2.archive.ubuntu.com trusty-updates InRelease
+Hit http://ppa.launchpad.net trusty Release.gpg
+Hit http://security.ubuntu.com trusty-security/main Sources
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty Release.gpg
+Hit http://ppa.launchpad.net trusty Release
+Hit http://security.ubuntu.com trusty-security/universe Sources
+Hit http://security.ubuntu.com trusty-security/main amd64 Packages
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-updates Release.gpg
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://security.ubuntu.com trusty-security/universe amd64 Packages
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty Release
+Hit http://security.ubuntu.com trusty-security/main Translation-en
+Hit http://security.ubuntu.com trusty-security/universe Translation-en
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-updates Release
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/main Sources
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/universe Sources
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/main amd64 Packages
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/universe amd64 Packages
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/main Translation-en
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/universe Translation-en
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-updates/main Sources
+Ign http://ppa.launchpad.net trusty/main Translation-en_US
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-updates/universe Sources
+Ign http://ppa.launchpad.net trusty/main Translation-en
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-updates/main amd64 Packages
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-updates/universe amd64 Packages
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-updates/main Translation-en
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-updates/universe Translation-en
+Ign http://us-west-2.ec2.archive.ubuntu.com trusty/main Translation-en_US
+Ign http://us-west-2.ec2.archive.ubuntu.com trusty/universe Translation-en_US
+Reading package lists...

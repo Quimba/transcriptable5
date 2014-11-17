@@ -1,0 +1,477 @@
+---
+http_interactions:
+- request:
+    method: head
+    uri: https://typingpool-tokyo-test-ffa60-zzz.s3.amazonaws.com/Typingpool's%20Test%20&%20Interview.00.00.aee9aa3ad790410387d2d4a64663adba.VAKHPB.mp3
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - 2B70C53214E3B41B
+      X-Amz-Id-2:
+      - 6LdSM1Prs3tPpiurG9Z4Vi7pLKxxyZzE5oZ3MCElCS7e199XIl/u7cN6PKt7Lp2A
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:31:11 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:31:11 GMT
+- request:
+    method: head
+    uri: https://typingpool-tokyo-test-ffa60-zzz.s3.amazonaws.com/Typingpool's%20Test%20&%20Interview.00.22.aee9aa3ad790410387d2d4a64663adba.VTYHLY.mp3
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - B34FD6EBE356441F
+      X-Amz-Id-2:
+      - aXQCVPPyxssKHvytmDfakEgDFOFSymeK0NyrIZOIrTjIz4pPNYJQ/dMwKqBKScJf
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:31:12 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:31:12 GMT
+- request:
+    method: head
+    uri: https://typingpool-tokyo-test-ffa60-zzz.s3.amazonaws.com/Typingpool's%20Test%20&%20Interview.00.44.aee9aa3ad790410387d2d4a64663adba.UILLDG.mp3
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - B3993CE6C3E30B73
+      X-Amz-Id-2:
+      - 990XIX9+FVqv8xbdsJ+pRjSUHfEQCTOTQLnG8qf0bOjfhN1hHS7kwxmiCWxZ7uKN
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:31:12 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:31:13 GMT
+- request:
+    method: head
+    uri: https://typingpool-tokyo-test-ffa60-zzz.s3.amazonaws.com/Typingpool's%20Test%20&%20Interview.01.06.aee9aa3ad790410387d2d4a64663adba.SPQQAB.mp3
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - EF2694FF703DC380
+      X-Amz-Id-2:
+      - +9yaBUh4B9sgBF2txnoiCZgv+9FAG/a7Vtcq4Oii7yqk96ryE93xeuiB/vipBO/v
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:31:12 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:31:13 GMT
+- request:
+    method: head
+    uri: https://typingpool-tokyo-test-ffa60-zzz.s3.amazonaws.com/Typingpool's%20Test%20&%20Interview.01.28.aee9aa3ad790410387d2d4a64663adba.XSDRLS.mp3
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - 6B583D4F33F1EEFC
+      X-Amz-Id-2:
+      - +Dg1PDdJVA8tMt9tWDdVwctpRAm0gQCtK7TVcvoopyK/3OEu2bqZ3ozBW+Sr4yit
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:31:13 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:31:14 GMT
+- request:
+    method: head
+    uri: https://typingpool-tokyo-test-ffa60-zzz.s3.amazonaws.com/Typingpool's%20Test%20&%20Interview.01.50.aee9aa3ad790410387d2d4a64663adba.KNBOQL.mp3
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - 4D0A8F96AD229C97
+      X-Amz-Id-2:
+      - 09R9LU9v7AROUZTcL53fie18SDQP2kkaP+VpyqjxLIqVDfKSZ+JNTJDHK7ka0V6m
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:31:14 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:31:14 GMT
+- request:
+    method: put
+    uri: https://typingpool-tokyo-test-ffa60-zzz.s3.amazonaws.com/Typingpool's%20Test%20&%20Interview.00.00.aee9aa3ad790410387d2d4a64663adba.VAKHPB.mp3
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PEJJR19VUExPQUQ+
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '532962'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:31:14 GMT
+      Authorization:
+      - AWS <AWS_KEY>:ayAsRu7rSfMWNFCbGVbAKXet4AI=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - qanPqFYHx05HMdNCysV4eVjlsi6cKIotfFrOUiVMtT35GKFBB/9CVrLNI3ZVK5L3
+      X-Amz-Request-Id:
+      - 3BFAC9A4A0D51CD6
+      Date:
+      - Mon, 02 Sep 2013 20:31:16 GMT
+      Etag:
+      - '"f57d6553050f64280f63ebdd860d94e9"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:31:16 GMT
+- request:
+    method: put
+    uri: https://typingpool-tokyo-test-ffa60-zzz.s3.amazonaws.com/Typingpool's%20Test%20&%20Interview.00.22.aee9aa3ad790410387d2d4a64663adba.VTYHLY.mp3
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PEJJR19VUExPQUQ+
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '524811'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:31:16 GMT
+      Authorization:
+      - AWS <AWS_KEY>:GcSLTF8peskcw2uDbOiKtqVbKXc=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - eCGYeA0LhbQvnd4aDJodCide2YnIIdaz1VRJXeH+2YV5lj4qcvQyPLapwf0BCtPt
+      X-Amz-Request-Id:
+      - EA6EBDF2A2BD7511
+      Date:
+      - Mon, 02 Sep 2013 20:31:18 GMT
+      Etag:
+      - '"28f8e8e11c4c39dce9903a8f29f472f6"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:31:18 GMT
+- request:
+    method: put
+    uri: https://typingpool-tokyo-test-ffa60-zzz.s3.amazonaws.com/Typingpool's%20Test%20&%20Interview.00.44.aee9aa3ad790410387d2d4a64663adba.UILLDG.mp3
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PEJJR19VUExPQUQ+
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '528606'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:31:18 GMT
+      Authorization:
+      - AWS <AWS_KEY>:d18n9LOTCIBX5G8fW1JFMvqiQfc=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - R9GcCRKLCCL0ZpqSftgv5CvlGGg/KlwWQiQV/cz7iAkuvyanPRq8e/Emg90hBwwI
+      X-Amz-Request-Id:
+      - B54C41B3F91D8DD2
+      Date:
+      - Mon, 02 Sep 2013 20:31:20 GMT
+      Etag:
+      - '"c9ed1df5dc439a330f2fbdd56ceb35bf"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:31:20 GMT
+- request:
+    method: put
+    uri: https://typingpool-tokyo-test-ffa60-zzz.s3.amazonaws.com/Typingpool's%20Test%20&%20Interview.01.06.aee9aa3ad790410387d2d4a64663adba.SPQQAB.mp3
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PEJJR19VUExPQUQ+
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '528574'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:31:20 GMT
+      Authorization:
+      - AWS <AWS_KEY>:fOcMPKoTMPW39qqBw/6HbhtCqDU=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - 0CMwNH1InofHqrqTDAlVBkbOXrZvZWMJFudK8nhRMijbZf8u43+6DuyDsUj3srGK
+      X-Amz-Request-Id:
+      - 0F4EBADF6B93698A
+      Date:
+      - Mon, 02 Sep 2013 20:31:22 GMT
+      Etag:
+      - '"aaefad08e1f9595ff1438f5ac076aac9"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:31:23 GMT
+- request:
+    method: put
+    uri: https://typingpool-tokyo-test-ffa60-zzz.s3.amazonaws.com/Typingpool's%20Test%20&%20Interview.01.28.aee9aa3ad790410387d2d4a64663adba.XSDRLS.mp3
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PEJJR19VUExPQUQ+
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '528573'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:31:23 GMT
+      Authorization:
+      - AWS <AWS_KEY>:ETrFkYeBVYkPF1tvCUnwwqAsVvU=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - Z6ww08yJ1x8LgA7jNNArUhq275orXwNt3+ge/YC9MmGFG1k+EAP7SgCFBZFh4EKP
+      X-Amz-Request-Id:
+      - 7DBBAF1FBB4E01A8
+      Date:
+      - Mon, 02 Sep 2013 20:31:24 GMT
+      Etag:
+      - '"460cc52f6ccf14cc0ed782dcd3708cd6"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:31:24 GMT
+- request:
+    method: put
+    uri: https://typingpool-tokyo-test-ffa60-zzz.s3.amazonaws.com/Typingpool's%20Test%20&%20Interview.01.50.aee9aa3ad790410387d2d4a64663adba.KNBOQL.mp3
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PEJJR19VUExPQUQ+
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '241437'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:31:24 GMT
+      Authorization:
+      - AWS <AWS_KEY>:lBbtLRqwMYjk70AvVb6vu8Pb8Jw=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - LK/HNb+VUMjVC5976PM1S9zsXdDabE+ztoEmwGjXWm6YiNG4zyU4+pfeu6wIIK75
+      X-Amz-Request-Id:
+      - 82E977E7A165AE94
+      Date:
+      - Mon, 02 Sep 2013 20:31:26 GMT
+      Etag:
+      - '"24d25572b526834e342a6d060f93c00a"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:31:26 GMT
+recorded_with: VCR 2.5.0

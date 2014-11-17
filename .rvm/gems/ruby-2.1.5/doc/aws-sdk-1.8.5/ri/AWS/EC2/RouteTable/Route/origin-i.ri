@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"origin:ETI"'AWS::EC2::RouteTable::Route#origin;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"9@return [Symbol] Returns the origin (:create_route, ;TI"::create_route_table or :enable_vgw_route_propagation);T:
+@fileI"%lib/aws/ec2/route_table/route.rb;T:0@omit_headings_from_table_of_contents_below0F@I" AWS::EC2::RouteTable::Route;FcRDoc::NormalClass0

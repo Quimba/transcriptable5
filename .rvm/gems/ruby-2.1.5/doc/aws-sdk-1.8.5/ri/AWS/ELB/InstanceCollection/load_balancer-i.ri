@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"load_balancer:ETI"/AWS::ELB::InstanceCollection#load_balancer;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"E@return [LoadBalancer] Returns the load balancer this collection;To:RDoc::Markup::Verbatim;	[I"belongs to.;T:@format0:
+@fileI"'lib/aws/elb/instance_collection.rb;T:0@omit_headings_from_table_of_contents_below0F@I"!AWS::ELB::InstanceCollection;FcRDoc::NormalClass0

@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"job_flow:ETI"%AWS::EMR::InstanceGroup#job_flow;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@return [JobFlow];T:
+@fileI""lib/aws/emr/instance_group.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::EMR::InstanceGroup;FcRDoc::NormalClass0

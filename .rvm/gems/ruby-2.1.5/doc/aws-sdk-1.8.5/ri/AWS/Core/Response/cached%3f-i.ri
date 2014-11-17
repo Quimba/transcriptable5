@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"cached?:ETI" AWS::Core::Response#cached?;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@@return [Boolean] true if the response was generated from a;To:RDoc::Markup::Verbatim;	[I"another cached response.;T:@format0:
+@fileI"lib/aws/core/response.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::Core::Response;FcRDoc::NormalClass0

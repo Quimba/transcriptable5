@@ -1,0 +1,126 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'typingpool'
+require 'fileutils'
+
+options = {}
+OptionParser.new do |commands|
+  options[:banner] =  "USAGE: #{File.basename($PROGRAM_NAME)} PROJECT | --dead\n"
+  options[:banner] += "  [--sandbox]\n  [--config PATH]\n"
+  commands.banner = options[:banner]
+
+  commands.on('--dead',
+              "Remove ALL expired and rejected results, regardless of project.",
+              "Use in leiu of PROJECT.",
+              "Removes only Mechanical Turk HITs, not remote audio files") do
+    options[:dead] = true
+  end
+
+  commands.on('--sandbox',
+              "Test in Mechanical Turk's sandbox") do
+    options[:sandbox] = true
+  end
+
+  commands.on('--config=PATH',
+              "Default: #{Typingpool::Config.default_file}.",
+              "A config file") do |path|
+    options[:config] = path
+  end
+
+  commands.on('--testfixture=PATH',
+              'For testing purposes only. Ignore.',
+              'A VCR fixture for running with mock data.') do |fixture|
+    require 'typingpool/app/test'
+    options[:fixture] = fixture
+  end
+
+  commands.on('--testfixturerecord',
+              'For testing purposes only. Ignore.',
+              'Allows recording of a new fixture',
+              'to --testfixture path.') do
+    options[:fixturerecord] = true
+  end
+
+  commands.on('--help',
+              'Display this screen') do
+    STDERR.puts commands 
+    exit
+  end
+end.parse!
+options[:banner] += "\n#{Typingpool::App::CLI.help_arg_explanation}\n"
+config = Typingpool::App::CLI.config_from_arg(options[:config]) or abort "No config file at '#{options[:config]}'"
+
+options[:project] = ARGV.shift
+abort "Can't specify both PROJECT and --dead" if options[:project] && options[:dead]
+abort "No PROJECT specified (and no --dead option)\n#{options[:banner]}" unless (options[:project] || options[:dead])
+
+project=nil
+assignments=nil
+if options[:project]
+  project = Typingpool::App::CLI.project_from_arg_and_config(options[:project], config)
+  project.local.id or abort "Can't find project id in #{project.local.path}"
+  assignments = Typingpool::App.assignments_file_for_sandbox_status(options[:sandbox], project) 
+end
+
+Typingpool::Amazon.setup(:sandbox => options[:sandbox], :config => config)
+if options[:fixture]
+  Typingpool::App.vcr_load(options[:fixture], config, not(options[:fixturerecord]), {
+                             :preserve_exact_body_bytes => true,
+                             :match_requests_on => [:method, Typingpool::App.vcr_core_host_matcher]
+                           })
+  at_exit{ Typingpool::App.vcr_stop }
+end
+STDERR.puts "Removing from Amazon"
+STDERR.puts "  Collecting all results"
+#Set up result set, depending on options
+results = if project
+            Typingpool::Amazon::HIT.all_for_project(project.local.id)
+          elsif options[:dead]
+            Typingpool::Amazon::HIT.all.select do |result|
+              dead = ((result.full.expired_and_overdue? || result.rejected?) && result.ours?)
+              result.to_cache
+              dead
+            end
+          end
+
+#Remove the results from Mechanical Turk
+fails = []
+results.each do |result| 
+  STDERR.puts "  Removing HIT #{result.id} (#{result.full.status})"
+  begin
+    result.remove_from_amazon 
+  rescue Typingpool::Error::Amazon::UnreviewedContent => e
+    fails.push(e)
+  else
+    if project
+      STDERR.puts "  Removing from data/assignment.csv"
+      Typingpool::App.unrecord_hits_details_in_assignments_file(assignments, [result])  
+    end
+    STDERR.puts "  Removing from local cache"
+    Typingpool::Amazon::HIT.delete_cache(result.id)
+  end
+end
+if fails.count > 0
+  STDERR.puts "  Removed " + (results.size - fails.size) + " HITs from Amazon"
+  abort "#{fails.size} transcriptions are submitted but unprocessed (#{fails.join('; ')})"
+end
+#Remove the remote audio files associated with the results and update
+#one of the assignment.csvs associated with the project
+if project 
+  #Don't want to delete audio if there's another assignments file
+  #relying on it
+  delete_types = if (options[:sandbox] || (File.exists? project.local.file('data', 'sandbox-assignment.csv')))
+                   ['assignment']
+                 else
+                   ['audio', 'assignment']
+                 end #if options[:sandbox] ||...
+  deleted = Typingpool::App.updelete_assignment_assets(project, assignments, assignments, delete_types) do |file|
+    STDERR.puts "Removing #{file} from #{project.remote.host}"
+  end
+  if options[:sandbox]
+    #delete sandbox-assignment.csv so we know it's safe to delete
+    #audio files when we finish using regular assignment.csv
+    FileUtils.remove_entry_secure project.local.file('data', 'sandbox-assignment.csv')
+  end
+end #if project

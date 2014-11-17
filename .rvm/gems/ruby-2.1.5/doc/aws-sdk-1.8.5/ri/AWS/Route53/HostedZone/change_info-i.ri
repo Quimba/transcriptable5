@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"change_info:ETI")AWS::Route53::HostedZone#change_info;FI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"F@return [ChangeInfo] Change info for the newly created HostedZone;To:RDoc::Markup::Verbatim;	[I"instance.;T:@format0:
+@fileI"$lib/aws/route_53/hosted_zone.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::Route53::HostedZone;FcRDoc::NormalClass0

@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"request_type:ETI"%AWS::Core::Response#request_type;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@@return [Symbol] The name of the client request method that;To:RDoc::Markup::Verbatim;	[I"returned this response.;T:@format0:
+@fileI"lib/aws/core/response.rb;T:0@omit_headings_from_table_of_contents_below0F@I"AWS::Core::Response;FcRDoc::NormalClass0

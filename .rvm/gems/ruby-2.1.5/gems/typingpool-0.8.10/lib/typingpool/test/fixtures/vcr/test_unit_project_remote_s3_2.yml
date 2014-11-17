@@ -1,0 +1,1888 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/?versioning
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:43 GMT
+      Authorization:
+      - AWS <AWS_KEY>:4EWpal/sbpqzLHfRHWPI83aiB4U=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - 1109906FD9C68ADB
+      X-Amz-Id-2:
+      - G4w/p3Y40XvXD+ymsQuu4axMU7C+5LtNZvy5gPvQB7ntaOgeJ0koGnO3s20SIPpG
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:38:44 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPEVycm9y
+        PjxDb2RlPk5vU3VjaEJ1Y2tldDwvQ29kZT48TWVzc2FnZT5UaGUgc3BlY2lm
+        aWVkIGJ1Y2tldCBkb2VzIG5vdCBleGlzdDwvTWVzc2FnZT48QnVja2V0TmFt
+        ZT50eXBpbmdwb29sLXRlc3QtZHFxNXAwNzlqNjc2dDg0ZDwvQnVja2V0TmFt
+        ZT48UmVxdWVzdElkPjExMDk5MDZGRDlDNjhBREI8L1JlcXVlc3RJZD48SG9z
+        dElkPkc0dy9wM1k0MFh2WEQreW1zUXV1NGF4TVU3Qys1THROWnZ5NWdQdlFC
+        N250YU9nZUowa29Hbk8zczIwU0lQcEc8L0hvc3RJZD48L0Vycm9yPg==
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:44 GMT
+- request:
+    method: put
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-html.html
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PCFET0NUWVBFIGh0bWw+CjxodG1sPgo8aGVhZD4KICA8c2NyaXB0PgpmdW5j
+        dGlvbiBzZXRBbWF6b25Bc3NpZ25tZW50SWQoKSB7CiAgICB2YXIgcGFyYW1z
+        ID0gd2luZG93LmxvY2F0aW9uLnNlYXJjaC5zdWJzdHJpbmcoMSkuc3BsaXQo
+        JyYnKTsKICAgIHZhciBpID0gMDsKICAgIGZvciAoaSA9IDA7IGkgPCBwYXJh
+        bXMubGVuZ3RoOyBpKyspIHsKICAgICAgICB2YXIgcGFyYW0gPSBwYXJhbXNb
+        aV0uc3BsaXQoJz0nKTsKICAgICAgICB2YXIga2V5ID0gcGFyYW1bMF07CiAg
+        ICAgICAgdmFyIHZhbHVlID0gcGFyYW1bMV07CiAgICAgICAgaWYgKGtleSA9
+        PT0gJ2Fzc2lnbm1lbnRJZCcpIHsKICAgICAgICAgICAgaWYgKHZhbHVlID09
+        PSAnQVNTSUdOTUVOVF9JRF9OT1RfQVZBSUxBQkxFJykgewoJCXZhciBpbnB1
+        dCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdkaXNhYmxlX29uX3ByZXZp
+        ZXcnKTsKCQlpZiAoaW5wdXQpIHsKCQkgICAgaW5wdXQuc2V0QXR0cmlidXRl
+        KCdkaXNhYmxlZCcsICdkaXNhYmxlZCcpOwoJCSAgICB2YXIgc3BhbiA9IGRv
+        Y3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NwYW4nKTsKCQkgICAgc3Bhbi5zZXRB
+        dHRyaWJ1dGUoJ2NsYXNzJywgJ2Rpc2FibGVkX21lc3NhZ2UnKTsKCQkgICAg
+        c3Bhbi5hcHBlbmRDaGlsZChkb2N1bWVudC5jcmVhdGVUZXh0Tm9kZSgnIERp
+        c2FibGVkIGJlY2F1c2UgeW91IGFyZSBwcmV2aWV3aW5nIHRoaXMgSElULicp
+        KTsgCgkJICAgIHZhciBpbnB1dFNpYmxpbmcgPSBpbnB1dC5uZXh0U2libGlu
+        ZzsKCQkgICAgaWYgKGlucHV0U2libGluZykgewoJCQlpbnB1dC5wYXJlbnRO
+        b2RlLmluc2VydEJlZm9yZShzcGFuLCBpbnB1dFNpYmxpbmcpOwoJCSAgICB9
+        CgkJICAgIGVsc2UgewoJCQlpbnB1dC5wYXJlbnROb2RlLmFwcGVuZENoaWxk
+        KHNwYW4pOwoJCSAgICB9CgkJfQogICAgICAgICAgICB9CiAgICAgICAgICAg
+        IGVsc2UgewoJCWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhc3NpZ25tZW50
+        SWQnKS52YWx1ZSA9IHZhbHVlOwogICAgICAgICAgICB9CiAgICAgICAgfQog
+        ICAgICAgIGVsc2UgaWYgKGtleSA9PT0gJ3R1cmtTdWJtaXRUbycpIHsKICAg
+        ICAgICAgICAgdmFyIGZvcm0gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgn
+        dHVya0Zvcm0nKTsKICAgICAgICAgICAgaWYgKGZvcm0pIHsKCQlmb3JtLnNl
+        dEF0dHJpYnV0ZSgnYWN0aW9uJywgZGVjb2RlVVJJQ29tcG9uZW50KHZhbHVl
+        KSArICcvbXR1cmsvZXh0ZXJuYWxTdWJtaXQnKTsKICAgICAgICAgICAgfQog
+        ICAgICAgIH0KICAgIH0KfQoKPC9zY3JpcHQ+CiAgPHN0eWxlPgpib2R5IHsK
+        ICBjb2xvcjogYmxhY2s7CiAgYmFja2dyb3VuZDogd2hpdGU7ICAgIAogIGZv
+        bnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgIlRpbWVzIE5ldyBSb21hbiIs
+        IHNlcmlmOwp9CgpoMSwgaDIsIGgzLCBoNCwgaDUsIC5kaXNhYmxlZF9tZXNz
+        YWdlIHsKICBmb250LWZhbWlseTogSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1z
+        ZXJpZjsKfQoKcCB7CiAgbGluZS1oZWlnaHQ6IDE0MCU7Cn0KCi5kaXNhYmxl
+        ZF9tZXNzYWdlIHsKICBjb2xvcjogZ3JheTsKICBmb250LXNpemU6IHNtYWxs
+        Owp9Cgo8L3N0eWxlPgogIDx0aXRsZT5UcmFuc2NyaWJlIE1QMyBvZiAxLW1p
+        bnV0ZSBwaG9uZSBjYWxsbDwvdGl0bGU+CjwvaGVhZD4KCjxib2R5IG9ubG9h
+        ZD0ic2V0QW1hem9uQXNzaWdubWVudElkKCkiPgoKICA8aDI+VHJhbnNjcmli
+        ZSBNUDMgb2YgMS1taW51dGUgcGhvbmUgY2FsbDwvaDI+CiAgPHAgaWQ9ImRl
+        c2NyaXB0aW9uIj5JIHNwbGl0IHVwIGEgdGVsZXBob25lIGNvbnZlcnNhdGlv
+        biBpbnRvIDEtbWludXRlIHBhcnRzLCB5b3UgdHJhbnNjcmliZSB0aGUgYXVk
+        aW8gZm9yIG9uZSAxLW1pbnV0ZSBwYXJ0LjwvcD4KCiAgPGgzPkxhYmVsaW5n
+        PC9oMz4KICA8cD5UaGVyZSBhcmUgdHdvIHNwZWFrZXJzLiBUaGUgcGVyc29u
+        IGFza2luZyB0aGUgcXVlc3Rpb25zIGlzIDxzdHJvbmc+Unlhbjwvc3Ryb25n
+        Pi4gVGhlIHBlcnNvbiBhbnN3ZXJpbmcgdGhlIHF1ZXN0aW9ucywgb24gdGhl
+        IGRpc3RhbnQgZW5kIG9mIHRoZSB0ZWxlcGhvbmUgbGluZSwgaXMgPHN0cm9u
+        Zz5IYXZpPC9zdHJvbmc+LCBoYWNrZXIuIExhYmVsIGVhY2ggc3BlYWtlciB3
+        aXRoIGEgY29sb24sIGxpa2UgdGhpczo8L3A+CiAgPGJsb2NrcXVvdGU+CiAg
+        ICA8cD5SeWFuOiZuYnNwO0RvIHlvdSB0aGluayBpdCB3YXMgYSBtaXN0YWtl
+        IHRvIHNldCB1cCBTYXR1cm4gYXMgaXRzIG93biBDb3Jwb3JhdGlvbj88L3A+
+        CiAgICA8cD5IYXZpOiZuYnNwO0luIGhpbmRzaWdodCwgeW91IGNhbiBsb29r
+        IGF0IGl0IHRoYXQgd2F5LCBhbmQgSSB0aGluayBhIGxvdCBvZiBwZW9wbGUg
+        ZG8sIHF1aXRlIGhvbmVzdGx5LiBUaGV5IGRvbid0IHRoaW5rIEdNIG5lZWRl
+        ZCBhbm90aGVyIGJyYW5kLiBCdXQgYXQgdGhlIHRpbWUgdGhpcyB3YXMgYWxs
+        IGRldmVsb3BlZC4gSXQgc3VyZSBzZWVtZWQgbGlrZSBhIGdvb2QgaWRlYS48
+        L3A+CiAgPC9ibG9ja3F1b3RlPgoKICA8aDM+SW1wb3J0YW50PC9oMz4KICA8
+        dWw+CiAgICA8bGk+PHN0cm9uZz5VbnVzdWFsIHdvcmRzPC9zdHJvbmc+IHlv
+        dSBtaWdodCBoZWFyOiA8c3Ryb25nPkhhY2sgRGF5LCBTdW5ueXZhbGUsIENo
+        YWQgRDwvc3Ryb25nPjwvbGk+CiAgICA8bGk+PHN0cm9uZz5Eb24ndDwvc3Ry
+        b25nPiB0eXBlIHNob3J0IHJlc3BvbnNlcyBsaWtlIDxzdHJvbmc+eWE8L3N0
+        cm9uZz4sIDxzdHJvbmc+T0s8L3N0cm9uZz4sIDxzdHJvbmc+T2g8L3N0cm9u
+        Zz4sIDxzdHJvbmc+QWg8L3N0cm9uZz4sIGFuZCA8c3Ryb25nPk1tbWhtbTwv
+        c3Ryb25nPi4KICAgIDxsaT5Gb3IgPHN0cm9uZz5pbmF1ZGlibGU8L3N0cm9u
+        Zz4gd29yZHMsIHR5cGUgPHN0cm9uZz4/Pzwvc3Ryb25nPjwvbGk+CiAgPC91
+        bD4KCiAgPGgzPkluc3RydWN0aW9uczwvaDM+CiAgPHA+UGxlYXNlIDxzdHJv
+        bmc+dHJhbnNjcmliZTwvc3Ryb25nPiB0aGlzIDEtbWludXRlIE1QMzogPGEg
+        dGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHA6Ly93ZWJtYXNoZXIuY29tL210
+        dXJrL1Rlc3RUcEludGVydmlldy4wMC4wMC43NzQyMWUwYTYzMDJmNGM4YzM0
+        ZTI0MDA0YTRhZDgyOC5ZU09RSlUubXAzIj5odHRwOi8vd2VibWFzaGVyLmNv
+        bS9tdHVyay9UZXN0VHBJbnRlcnZpZXcuMDAuMDAuNzc0MjFlMGE2MzAyZjRj
+        OGMzNGUyNDAwNGE0YWQ4MjguWVNPUUpVLm1wMzwvYT48L3A+CiAgPGZvcm0g
+        YWN0aW9uPSJodHRwczovL3d3dy5tdHVyay5jb20vbXR1cmsvZXh0ZXJuYWxT
+        dWJtaXQiIG1ldGhvZD0iUE9TVCIgaWQ9InR1cmtGb3JtIj4KICAgIDxwPjxp
+        bnB1dCBuYW1lPSJhc3NpZ25tZW50SWQiIHR5cGU9ImhpZGRlbiIgaWQ9ImFz
+        c2lnbm1lbnRJZCI+PGlucHV0IG5hbWU9InR5cGluZ3Bvb2xfdXJsIiB0eXBl
+        PSJoaWRkZW4iIHZhbHVlPSJodHRwOi8vd2VibWFzaGVyLmNvbS9tdHVyay9U
+        ZXN0VHBJbnRlcnZpZXcuMDAuMDAuNzc0MjFlMGE2MzAyZjRjOGMzNGUyNDAw
+        NGE0YWQ4MjguWVNPUUpVLm1wMyIgLz48aW5wdXQgbmFtZT0idHlwaW5ncG9v
+        bF9wcm9qZWN0X2lkIiB0eXBlPSJoaWRkZW4iIHZhbHVlPSI3NzQyMWUwYTYz
+        MDJmNGM4YzM0ZTI0MDA0YTRhZDgyOCIgLz5FbnRlciB5b3VyIHRyYW5zY3Jp
+        cHRpb24gYmVsb3c6PC9wPgogICAgPHA+PHRleHRhcmVhIG5hbWU9InRyYW5z
+        Y3JpcHRpb24iIGNvbHM9IjgwIiByb3dzPSIxNSI+PC90ZXh0YXJlYT48L3A+
+        CiAgICA8cD48aW5wdXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iU3VibWl0IiBp
+        ZD0iZGlzYWJsZV9vbl9wcmV2aWV3Ij48L3A+CiAgPC9mb3JtPgoKPC9ib2R5
+        Pgo8L2h0bWw+Cg==
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '3790'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:44 GMT
+      Authorization:
+      - AWS <AWS_KEY>:VHUoG6ozQEjC70Y0TdXHYQ+XT7U=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - 587DAF318AA917C4
+      X-Amz-Id-2:
+      - 1otB86DKwCv2YzlV+3pgOQ6ylzTJB0Inr6UdKFh73jj1/5oM/0Js/yHLXc2gQ+9U
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:38:44 GMT
+      Connection:
+      - close
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPEVycm9y
+        PjxDb2RlPk5vU3VjaEJ1Y2tldDwvQ29kZT48TWVzc2FnZT5UaGUgc3BlY2lm
+        aWVkIGJ1Y2tldCBkb2VzIG5vdCBleGlzdDwvTWVzc2FnZT48QnVja2V0TmFt
+        ZT50eXBpbmdwb29sLXRlc3QtZHFxNXAwNzlqNjc2dDg0ZDwvQnVja2V0TmFt
+        ZT48UmVxdWVzdElkPjU4N0RBRjMxOEFBOTE3QzQ8L1JlcXVlc3RJZD48SG9z
+        dElkPjFvdEI4NkRLd0N2Mll6bFYrM3BnT1E2eWx6VEpCMElucjZVZEtGaDcz
+        amoxLzVvTS8wSnMveUhMWGMyZ1ErOVU8L0hvc3RJZD48L0Vycm9yPg==
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:45 GMT
+- request:
+    method: put
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:45 GMT
+      Authorization:
+      - AWS <AWS_KEY>:Xc++7ZAuyYPaWU0rpVotMrsuDHY=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - pSQ+nQo0Y/wYXH76jiIX76MLMgcRhouxh4N4rZi3NzYg8t6XJLI50B9MFhhy1Axs
+      X-Amz-Request-Id:
+      - 819A99FD969BC18B
+      Date:
+      - Mon, 02 Sep 2013 20:38:46 GMT
+      Location:
+      - /typingpool-test-dqq5p079j676t84d
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:45 GMT
+- request:
+    method: put
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-html.html
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PCFET0NUWVBFIGh0bWw+CjxodG1sPgo8aGVhZD4KICA8c2NyaXB0PgpmdW5j
+        dGlvbiBzZXRBbWF6b25Bc3NpZ25tZW50SWQoKSB7CiAgICB2YXIgcGFyYW1z
+        ID0gd2luZG93LmxvY2F0aW9uLnNlYXJjaC5zdWJzdHJpbmcoMSkuc3BsaXQo
+        JyYnKTsKICAgIHZhciBpID0gMDsKICAgIGZvciAoaSA9IDA7IGkgPCBwYXJh
+        bXMubGVuZ3RoOyBpKyspIHsKICAgICAgICB2YXIgcGFyYW0gPSBwYXJhbXNb
+        aV0uc3BsaXQoJz0nKTsKICAgICAgICB2YXIga2V5ID0gcGFyYW1bMF07CiAg
+        ICAgICAgdmFyIHZhbHVlID0gcGFyYW1bMV07CiAgICAgICAgaWYgKGtleSA9
+        PT0gJ2Fzc2lnbm1lbnRJZCcpIHsKICAgICAgICAgICAgaWYgKHZhbHVlID09
+        PSAnQVNTSUdOTUVOVF9JRF9OT1RfQVZBSUxBQkxFJykgewoJCXZhciBpbnB1
+        dCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdkaXNhYmxlX29uX3ByZXZp
+        ZXcnKTsKCQlpZiAoaW5wdXQpIHsKCQkgICAgaW5wdXQuc2V0QXR0cmlidXRl
+        KCdkaXNhYmxlZCcsICdkaXNhYmxlZCcpOwoJCSAgICB2YXIgc3BhbiA9IGRv
+        Y3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NwYW4nKTsKCQkgICAgc3Bhbi5zZXRB
+        dHRyaWJ1dGUoJ2NsYXNzJywgJ2Rpc2FibGVkX21lc3NhZ2UnKTsKCQkgICAg
+        c3Bhbi5hcHBlbmRDaGlsZChkb2N1bWVudC5jcmVhdGVUZXh0Tm9kZSgnIERp
+        c2FibGVkIGJlY2F1c2UgeW91IGFyZSBwcmV2aWV3aW5nIHRoaXMgSElULicp
+        KTsgCgkJICAgIHZhciBpbnB1dFNpYmxpbmcgPSBpbnB1dC5uZXh0U2libGlu
+        ZzsKCQkgICAgaWYgKGlucHV0U2libGluZykgewoJCQlpbnB1dC5wYXJlbnRO
+        b2RlLmluc2VydEJlZm9yZShzcGFuLCBpbnB1dFNpYmxpbmcpOwoJCSAgICB9
+        CgkJICAgIGVsc2UgewoJCQlpbnB1dC5wYXJlbnROb2RlLmFwcGVuZENoaWxk
+        KHNwYW4pOwoJCSAgICB9CgkJfQogICAgICAgICAgICB9CiAgICAgICAgICAg
+        IGVsc2UgewoJCWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhc3NpZ25tZW50
+        SWQnKS52YWx1ZSA9IHZhbHVlOwogICAgICAgICAgICB9CiAgICAgICAgfQog
+        ICAgICAgIGVsc2UgaWYgKGtleSA9PT0gJ3R1cmtTdWJtaXRUbycpIHsKICAg
+        ICAgICAgICAgdmFyIGZvcm0gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgn
+        dHVya0Zvcm0nKTsKICAgICAgICAgICAgaWYgKGZvcm0pIHsKCQlmb3JtLnNl
+        dEF0dHJpYnV0ZSgnYWN0aW9uJywgZGVjb2RlVVJJQ29tcG9uZW50KHZhbHVl
+        KSArICcvbXR1cmsvZXh0ZXJuYWxTdWJtaXQnKTsKICAgICAgICAgICAgfQog
+        ICAgICAgIH0KICAgIH0KfQoKPC9zY3JpcHQ+CiAgPHN0eWxlPgpib2R5IHsK
+        ICBjb2xvcjogYmxhY2s7CiAgYmFja2dyb3VuZDogd2hpdGU7ICAgIAogIGZv
+        bnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgIlRpbWVzIE5ldyBSb21hbiIs
+        IHNlcmlmOwp9CgpoMSwgaDIsIGgzLCBoNCwgaDUsIC5kaXNhYmxlZF9tZXNz
+        YWdlIHsKICBmb250LWZhbWlseTogSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1z
+        ZXJpZjsKfQoKcCB7CiAgbGluZS1oZWlnaHQ6IDE0MCU7Cn0KCi5kaXNhYmxl
+        ZF9tZXNzYWdlIHsKICBjb2xvcjogZ3JheTsKICBmb250LXNpemU6IHNtYWxs
+        Owp9Cgo8L3N0eWxlPgogIDx0aXRsZT5UcmFuc2NyaWJlIE1QMyBvZiAxLW1p
+        bnV0ZSBwaG9uZSBjYWxsbDwvdGl0bGU+CjwvaGVhZD4KCjxib2R5IG9ubG9h
+        ZD0ic2V0QW1hem9uQXNzaWdubWVudElkKCkiPgoKICA8aDI+VHJhbnNjcmli
+        ZSBNUDMgb2YgMS1taW51dGUgcGhvbmUgY2FsbDwvaDI+CiAgPHAgaWQ9ImRl
+        c2NyaXB0aW9uIj5JIHNwbGl0IHVwIGEgdGVsZXBob25lIGNvbnZlcnNhdGlv
+        biBpbnRvIDEtbWludXRlIHBhcnRzLCB5b3UgdHJhbnNjcmliZSB0aGUgYXVk
+        aW8gZm9yIG9uZSAxLW1pbnV0ZSBwYXJ0LjwvcD4KCiAgPGgzPkxhYmVsaW5n
+        PC9oMz4KICA8cD5UaGVyZSBhcmUgdHdvIHNwZWFrZXJzLiBUaGUgcGVyc29u
+        IGFza2luZyB0aGUgcXVlc3Rpb25zIGlzIDxzdHJvbmc+Unlhbjwvc3Ryb25n
+        Pi4gVGhlIHBlcnNvbiBhbnN3ZXJpbmcgdGhlIHF1ZXN0aW9ucywgb24gdGhl
+        IGRpc3RhbnQgZW5kIG9mIHRoZSB0ZWxlcGhvbmUgbGluZSwgaXMgPHN0cm9u
+        Zz5IYXZpPC9zdHJvbmc+LCBoYWNrZXIuIExhYmVsIGVhY2ggc3BlYWtlciB3
+        aXRoIGEgY29sb24sIGxpa2UgdGhpczo8L3A+CiAgPGJsb2NrcXVvdGU+CiAg
+        ICA8cD5SeWFuOiZuYnNwO0RvIHlvdSB0aGluayBpdCB3YXMgYSBtaXN0YWtl
+        IHRvIHNldCB1cCBTYXR1cm4gYXMgaXRzIG93biBDb3Jwb3JhdGlvbj88L3A+
+        CiAgICA8cD5IYXZpOiZuYnNwO0luIGhpbmRzaWdodCwgeW91IGNhbiBsb29r
+        IGF0IGl0IHRoYXQgd2F5LCBhbmQgSSB0aGluayBhIGxvdCBvZiBwZW9wbGUg
+        ZG8sIHF1aXRlIGhvbmVzdGx5LiBUaGV5IGRvbid0IHRoaW5rIEdNIG5lZWRl
+        ZCBhbm90aGVyIGJyYW5kLiBCdXQgYXQgdGhlIHRpbWUgdGhpcyB3YXMgYWxs
+        IGRldmVsb3BlZC4gSXQgc3VyZSBzZWVtZWQgbGlrZSBhIGdvb2QgaWRlYS48
+        L3A+CiAgPC9ibG9ja3F1b3RlPgoKICA8aDM+SW1wb3J0YW50PC9oMz4KICA8
+        dWw+CiAgICA8bGk+PHN0cm9uZz5VbnVzdWFsIHdvcmRzPC9zdHJvbmc+IHlv
+        dSBtaWdodCBoZWFyOiA8c3Ryb25nPkhhY2sgRGF5LCBTdW5ueXZhbGUsIENo
+        YWQgRDwvc3Ryb25nPjwvbGk+CiAgICA8bGk+PHN0cm9uZz5Eb24ndDwvc3Ry
+        b25nPiB0eXBlIHNob3J0IHJlc3BvbnNlcyBsaWtlIDxzdHJvbmc+eWE8L3N0
+        cm9uZz4sIDxzdHJvbmc+T0s8L3N0cm9uZz4sIDxzdHJvbmc+T2g8L3N0cm9u
+        Zz4sIDxzdHJvbmc+QWg8L3N0cm9uZz4sIGFuZCA8c3Ryb25nPk1tbWhtbTwv
+        c3Ryb25nPi4KICAgIDxsaT5Gb3IgPHN0cm9uZz5pbmF1ZGlibGU8L3N0cm9u
+        Zz4gd29yZHMsIHR5cGUgPHN0cm9uZz4/Pzwvc3Ryb25nPjwvbGk+CiAgPC91
+        bD4KCiAgPGgzPkluc3RydWN0aW9uczwvaDM+CiAgPHA+UGxlYXNlIDxzdHJv
+        bmc+dHJhbnNjcmliZTwvc3Ryb25nPiB0aGlzIDEtbWludXRlIE1QMzogPGEg
+        dGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHA6Ly93ZWJtYXNoZXIuY29tL210
+        dXJrL1Rlc3RUcEludGVydmlldy4wMC4wMC43NzQyMWUwYTYzMDJmNGM4YzM0
+        ZTI0MDA0YTRhZDgyOC5ZU09RSlUubXAzIj5odHRwOi8vd2VibWFzaGVyLmNv
+        bS9tdHVyay9UZXN0VHBJbnRlcnZpZXcuMDAuMDAuNzc0MjFlMGE2MzAyZjRj
+        OGMzNGUyNDAwNGE0YWQ4MjguWVNPUUpVLm1wMzwvYT48L3A+CiAgPGZvcm0g
+        YWN0aW9uPSJodHRwczovL3d3dy5tdHVyay5jb20vbXR1cmsvZXh0ZXJuYWxT
+        dWJtaXQiIG1ldGhvZD0iUE9TVCIgaWQ9InR1cmtGb3JtIj4KICAgIDxwPjxp
+        bnB1dCBuYW1lPSJhc3NpZ25tZW50SWQiIHR5cGU9ImhpZGRlbiIgaWQ9ImFz
+        c2lnbm1lbnRJZCI+PGlucHV0IG5hbWU9InR5cGluZ3Bvb2xfdXJsIiB0eXBl
+        PSJoaWRkZW4iIHZhbHVlPSJodHRwOi8vd2VibWFzaGVyLmNvbS9tdHVyay9U
+        ZXN0VHBJbnRlcnZpZXcuMDAuMDAuNzc0MjFlMGE2MzAyZjRjOGMzNGUyNDAw
+        NGE0YWQ4MjguWVNPUUpVLm1wMyIgLz48aW5wdXQgbmFtZT0idHlwaW5ncG9v
+        bF9wcm9qZWN0X2lkIiB0eXBlPSJoaWRkZW4iIHZhbHVlPSI3NzQyMWUwYTYz
+        MDJmNGM4YzM0ZTI0MDA0YTRhZDgyOCIgLz5FbnRlciB5b3VyIHRyYW5zY3Jp
+        cHRpb24gYmVsb3c6PC9wPgogICAgPHA+PHRleHRhcmVhIG5hbWU9InRyYW5z
+        Y3JpcHRpb24iIGNvbHM9IjgwIiByb3dzPSIxNSI+PC90ZXh0YXJlYT48L3A+
+        CiAgICA8cD48aW5wdXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iU3VibWl0IiBp
+        ZD0iZGlzYWJsZV9vbl9wcmV2aWV3Ij48L3A+CiAgPC9mb3JtPgoKPC9ib2R5
+        Pgo8L2h0bWw+Cg==
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '3790'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:45 GMT
+      Authorization:
+      - AWS <AWS_KEY>:Qef/PuaUL4/ijs6jf9b0tiVZ9PU=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - XTcB2CX4SfAJOYAK3Fp/CdWgeWE44BYwBNW6jMwyis7pYx7blP9A9FHpkFZNbXNP
+      X-Amz-Request-Id:
+      - 103BCD126D5181C9
+      Date:
+      - Mon, 02 Sep 2013 20:38:47 GMT
+      Etag:
+      - '"40fb78bc8dd4a24c94bbc15c16b11eed"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:46 GMT
+- request:
+    method: put
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-url.txt
+    body:
+      encoding: UTF-8
+      base64_string: |
+        aHR0cDovL2V4YW1wbGUuY29tL2Fzc2lnbm1lbnRzLzEwMS5odG1s
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '39'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:46 GMT
+      Authorization:
+      - AWS <AWS_KEY>:27uZ8u67+LKGO6HuEte16oKwqns=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - /Kc6V2HTG8RGW1bJ5HVCsy78G0GZ3yzBL6qwUGJle9VLXOYuYAlkwfXEpvAyH2xM
+      X-Amz-Request-Id:
+      - 31FFDB23B4D3E551
+      Date:
+      - Mon, 02 Sep 2013 20:38:48 GMT
+      Etag:
+      - '"5ea29c46e8ed41a4c5506583d14f0f3b"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:47 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-html.html
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - bQYnXvX4azUfNbH5omTFMJDnW6C9fafbv4Z6pd9m6nfD5UfuBg/LOU9qmMe7fSPZ
+      X-Amz-Request-Id:
+      - 0C0AE464C8A55607
+      Date:
+      - Mon, 02 Sep 2013 20:38:48 GMT
+      Last-Modified:
+      - Mon, 02 Sep 2013 20:38:47 GMT
+      Etag:
+      - '"40fb78bc8dd4a24c94bbc15c16b11eed"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - ''
+      Content-Length:
+      - '3790'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:47 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-url.txt
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - bDRWcz0HB7owfdf5G6DnwEaYsEulcY4RCAfLPMQkY2N3QWBWzTXq10oUe59+BBnr
+      X-Amz-Request-Id:
+      - F42AA65972C0FFD5
+      Date:
+      - Mon, 02 Sep 2013 20:38:49 GMT
+      Last-Modified:
+      - Mon, 02 Sep 2013 20:38:48 GMT
+      Etag:
+      - '"5ea29c46e8ed41a4c5506583d14f0f3b"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - ''
+      Content-Length:
+      - '39'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:48 GMT
+- request:
+    method: delete
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-html.html
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:48 GMT
+      Authorization:
+      - AWS <AWS_KEY>:c/d9bvyU0GiyGnM+4chQtk3fEIQ=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - xp8VqMU4SUO+OtYvMUBmpM/A+Kln1nwxMsiagxcuNAsnD4sasaIKdcyizmsjui+G
+      X-Amz-Request-Id:
+      - 4E63CE4BEF847F8E
+      Date:
+      - Mon, 02 Sep 2013 20:38:49 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:48 GMT
+- request:
+    method: delete
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-url.txt
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:48 GMT
+      Authorization:
+      - AWS <AWS_KEY>:PVyyb+soJlYNm4p8g9ViqG/bnBE=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - BR3VMIkys79uhK5ExjpOCz7CVsI0xGgpe8mJDK9AQo5SxJm8meOagWuiPIvQmolt
+      X-Amz-Request-Id:
+      - 13BF3C054F268EAE
+      Date:
+      - Mon, 02 Sep 2013 20:38:50 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:49 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-html.html
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - 3AA0D57C7FAD2A50
+      X-Amz-Id-2:
+      - ObilzHg0p77fghTROTnUbxw8IFJCV+OX/DBoJL0yCZzjti/GuDrVMOBngC2gAi+K
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:38:49 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:49 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-url.txt
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - 9810A36E3969DD09
+      X-Amz-Id-2:
+      - mZFTgfuzbgJGYgmrYnduhjAnIYorrPFGR1II8tRyj2wqXmhyhwPBUsah33S0NPEL
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:38:49 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:50 GMT
+- request:
+    method: put
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-htmlKCVIMS.html
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PCFET0NUWVBFIGh0bWw+CjxodG1sPgo8aGVhZD4KICA8c2NyaXB0PgpmdW5j
+        dGlvbiBzZXRBbWF6b25Bc3NpZ25tZW50SWQoKSB7CiAgICB2YXIgcGFyYW1z
+        ID0gd2luZG93LmxvY2F0aW9uLnNlYXJjaC5zdWJzdHJpbmcoMSkuc3BsaXQo
+        JyYnKTsKICAgIHZhciBpID0gMDsKICAgIGZvciAoaSA9IDA7IGkgPCBwYXJh
+        bXMubGVuZ3RoOyBpKyspIHsKICAgICAgICB2YXIgcGFyYW0gPSBwYXJhbXNb
+        aV0uc3BsaXQoJz0nKTsKICAgICAgICB2YXIga2V5ID0gcGFyYW1bMF07CiAg
+        ICAgICAgdmFyIHZhbHVlID0gcGFyYW1bMV07CiAgICAgICAgaWYgKGtleSA9
+        PT0gJ2Fzc2lnbm1lbnRJZCcpIHsKICAgICAgICAgICAgaWYgKHZhbHVlID09
+        PSAnQVNTSUdOTUVOVF9JRF9OT1RfQVZBSUxBQkxFJykgewoJCXZhciBpbnB1
+        dCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdkaXNhYmxlX29uX3ByZXZp
+        ZXcnKTsKCQlpZiAoaW5wdXQpIHsKCQkgICAgaW5wdXQuc2V0QXR0cmlidXRl
+        KCdkaXNhYmxlZCcsICdkaXNhYmxlZCcpOwoJCSAgICB2YXIgc3BhbiA9IGRv
+        Y3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NwYW4nKTsKCQkgICAgc3Bhbi5zZXRB
+        dHRyaWJ1dGUoJ2NsYXNzJywgJ2Rpc2FibGVkX21lc3NhZ2UnKTsKCQkgICAg
+        c3Bhbi5hcHBlbmRDaGlsZChkb2N1bWVudC5jcmVhdGVUZXh0Tm9kZSgnIERp
+        c2FibGVkIGJlY2F1c2UgeW91IGFyZSBwcmV2aWV3aW5nIHRoaXMgSElULicp
+        KTsgCgkJICAgIHZhciBpbnB1dFNpYmxpbmcgPSBpbnB1dC5uZXh0U2libGlu
+        ZzsKCQkgICAgaWYgKGlucHV0U2libGluZykgewoJCQlpbnB1dC5wYXJlbnRO
+        b2RlLmluc2VydEJlZm9yZShzcGFuLCBpbnB1dFNpYmxpbmcpOwoJCSAgICB9
+        CgkJICAgIGVsc2UgewoJCQlpbnB1dC5wYXJlbnROb2RlLmFwcGVuZENoaWxk
+        KHNwYW4pOwoJCSAgICB9CgkJfQogICAgICAgICAgICB9CiAgICAgICAgICAg
+        IGVsc2UgewoJCWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhc3NpZ25tZW50
+        SWQnKS52YWx1ZSA9IHZhbHVlOwogICAgICAgICAgICB9CiAgICAgICAgfQog
+        ICAgICAgIGVsc2UgaWYgKGtleSA9PT0gJ3R1cmtTdWJtaXRUbycpIHsKICAg
+        ICAgICAgICAgdmFyIGZvcm0gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgn
+        dHVya0Zvcm0nKTsKICAgICAgICAgICAgaWYgKGZvcm0pIHsKCQlmb3JtLnNl
+        dEF0dHJpYnV0ZSgnYWN0aW9uJywgZGVjb2RlVVJJQ29tcG9uZW50KHZhbHVl
+        KSArICcvbXR1cmsvZXh0ZXJuYWxTdWJtaXQnKTsKICAgICAgICAgICAgfQog
+        ICAgICAgIH0KICAgIH0KfQoKPC9zY3JpcHQ+CiAgPHN0eWxlPgpib2R5IHsK
+        ICBjb2xvcjogYmxhY2s7CiAgYmFja2dyb3VuZDogd2hpdGU7ICAgIAogIGZv
+        bnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgIlRpbWVzIE5ldyBSb21hbiIs
+        IHNlcmlmOwp9CgpoMSwgaDIsIGgzLCBoNCwgaDUsIC5kaXNhYmxlZF9tZXNz
+        YWdlIHsKICBmb250LWZhbWlseTogSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1z
+        ZXJpZjsKfQoKcCB7CiAgbGluZS1oZWlnaHQ6IDE0MCU7Cn0KCi5kaXNhYmxl
+        ZF9tZXNzYWdlIHsKICBjb2xvcjogZ3JheTsKICBmb250LXNpemU6IHNtYWxs
+        Owp9Cgo8L3N0eWxlPgogIDx0aXRsZT5UcmFuc2NyaWJlIE1QMyBvZiAxLW1p
+        bnV0ZSBwaG9uZSBjYWxsbDwvdGl0bGU+CjwvaGVhZD4KCjxib2R5IG9ubG9h
+        ZD0ic2V0QW1hem9uQXNzaWdubWVudElkKCkiPgoKICA8aDI+VHJhbnNjcmli
+        ZSBNUDMgb2YgMS1taW51dGUgcGhvbmUgY2FsbDwvaDI+CiAgPHAgaWQ9ImRl
+        c2NyaXB0aW9uIj5JIHNwbGl0IHVwIGEgdGVsZXBob25lIGNvbnZlcnNhdGlv
+        biBpbnRvIDEtbWludXRlIHBhcnRzLCB5b3UgdHJhbnNjcmliZSB0aGUgYXVk
+        aW8gZm9yIG9uZSAxLW1pbnV0ZSBwYXJ0LjwvcD4KCiAgPGgzPkxhYmVsaW5n
+        PC9oMz4KICA8cD5UaGVyZSBhcmUgdHdvIHNwZWFrZXJzLiBUaGUgcGVyc29u
+        IGFza2luZyB0aGUgcXVlc3Rpb25zIGlzIDxzdHJvbmc+Unlhbjwvc3Ryb25n
+        Pi4gVGhlIHBlcnNvbiBhbnN3ZXJpbmcgdGhlIHF1ZXN0aW9ucywgb24gdGhl
+        IGRpc3RhbnQgZW5kIG9mIHRoZSB0ZWxlcGhvbmUgbGluZSwgaXMgPHN0cm9u
+        Zz5IYXZpPC9zdHJvbmc+LCBoYWNrZXIuIExhYmVsIGVhY2ggc3BlYWtlciB3
+        aXRoIGEgY29sb24sIGxpa2UgdGhpczo8L3A+CiAgPGJsb2NrcXVvdGU+CiAg
+        ICA8cD5SeWFuOiZuYnNwO0RvIHlvdSB0aGluayBpdCB3YXMgYSBtaXN0YWtl
+        IHRvIHNldCB1cCBTYXR1cm4gYXMgaXRzIG93biBDb3Jwb3JhdGlvbj88L3A+
+        CiAgICA8cD5IYXZpOiZuYnNwO0luIGhpbmRzaWdodCwgeW91IGNhbiBsb29r
+        IGF0IGl0IHRoYXQgd2F5LCBhbmQgSSB0aGluayBhIGxvdCBvZiBwZW9wbGUg
+        ZG8sIHF1aXRlIGhvbmVzdGx5LiBUaGV5IGRvbid0IHRoaW5rIEdNIG5lZWRl
+        ZCBhbm90aGVyIGJyYW5kLiBCdXQgYXQgdGhlIHRpbWUgdGhpcyB3YXMgYWxs
+        IGRldmVsb3BlZC4gSXQgc3VyZSBzZWVtZWQgbGlrZSBhIGdvb2QgaWRlYS48
+        L3A+CiAgPC9ibG9ja3F1b3RlPgoKICA8aDM+SW1wb3J0YW50PC9oMz4KICA8
+        dWw+CiAgICA8bGk+PHN0cm9uZz5VbnVzdWFsIHdvcmRzPC9zdHJvbmc+IHlv
+        dSBtaWdodCBoZWFyOiA8c3Ryb25nPkhhY2sgRGF5LCBTdW5ueXZhbGUsIENo
+        YWQgRDwvc3Ryb25nPjwvbGk+CiAgICA8bGk+PHN0cm9uZz5Eb24ndDwvc3Ry
+        b25nPiB0eXBlIHNob3J0IHJlc3BvbnNlcyBsaWtlIDxzdHJvbmc+eWE8L3N0
+        cm9uZz4sIDxzdHJvbmc+T0s8L3N0cm9uZz4sIDxzdHJvbmc+T2g8L3N0cm9u
+        Zz4sIDxzdHJvbmc+QWg8L3N0cm9uZz4sIGFuZCA8c3Ryb25nPk1tbWhtbTwv
+        c3Ryb25nPi4KICAgIDxsaT5Gb3IgPHN0cm9uZz5pbmF1ZGlibGU8L3N0cm9u
+        Zz4gd29yZHMsIHR5cGUgPHN0cm9uZz4/Pzwvc3Ryb25nPjwvbGk+CiAgPC91
+        bD4KCiAgPGgzPkluc3RydWN0aW9uczwvaDM+CiAgPHA+UGxlYXNlIDxzdHJv
+        bmc+dHJhbnNjcmliZTwvc3Ryb25nPiB0aGlzIDEtbWludXRlIE1QMzogPGEg
+        dGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHA6Ly93ZWJtYXNoZXIuY29tL210
+        dXJrL1Rlc3RUcEludGVydmlldy4wMC4wMC43NzQyMWUwYTYzMDJmNGM4YzM0
+        ZTI0MDA0YTRhZDgyOC5ZU09RSlUubXAzIj5odHRwOi8vd2VibWFzaGVyLmNv
+        bS9tdHVyay9UZXN0VHBJbnRlcnZpZXcuMDAuMDAuNzc0MjFlMGE2MzAyZjRj
+        OGMzNGUyNDAwNGE0YWQ4MjguWVNPUUpVLm1wMzwvYT48L3A+CiAgPGZvcm0g
+        YWN0aW9uPSJodHRwczovL3d3dy5tdHVyay5jb20vbXR1cmsvZXh0ZXJuYWxT
+        dWJtaXQiIG1ldGhvZD0iUE9TVCIgaWQ9InR1cmtGb3JtIj4KICAgIDxwPjxp
+        bnB1dCBuYW1lPSJhc3NpZ25tZW50SWQiIHR5cGU9ImhpZGRlbiIgaWQ9ImFz
+        c2lnbm1lbnRJZCI+PGlucHV0IG5hbWU9InR5cGluZ3Bvb2xfdXJsIiB0eXBl
+        PSJoaWRkZW4iIHZhbHVlPSJodHRwOi8vd2VibWFzaGVyLmNvbS9tdHVyay9U
+        ZXN0VHBJbnRlcnZpZXcuMDAuMDAuNzc0MjFlMGE2MzAyZjRjOGMzNGUyNDAw
+        NGE0YWQ4MjguWVNPUUpVLm1wMyIgLz48aW5wdXQgbmFtZT0idHlwaW5ncG9v
+        bF9wcm9qZWN0X2lkIiB0eXBlPSJoaWRkZW4iIHZhbHVlPSI3NzQyMWUwYTYz
+        MDJmNGM4YzM0ZTI0MDA0YTRhZDgyOCIgLz5FbnRlciB5b3VyIHRyYW5zY3Jp
+        cHRpb24gYmVsb3c6PC9wPgogICAgPHA+PHRleHRhcmVhIG5hbWU9InRyYW5z
+        Y3JpcHRpb24iIGNvbHM9IjgwIiByb3dzPSIxNSI+PC90ZXh0YXJlYT48L3A+
+        CiAgICA8cD48aW5wdXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iU3VibWl0IiBp
+        ZD0iZGlzYWJsZV9vbl9wcmV2aWV3Ij48L3A+CiAgPC9mb3JtPgoKPC9ib2R5
+        Pgo8L2h0bWw+Cg==
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '3790'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:50 GMT
+      Authorization:
+      - AWS <AWS_KEY>:bkS21uweCh3mQdGAD5bvaIdHL2I=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - VhpqjYt50mtKBgDQLGoE5s3YEeBtrtXFw1N58fLAafKWK6hK1KsQQa+x88+g5rJq
+      X-Amz-Request-Id:
+      - 61CF80C9F19D4DA0
+      Date:
+      - Mon, 02 Sep 2013 20:38:52 GMT
+      Etag:
+      - '"40fb78bc8dd4a24c94bbc15c16b11eed"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:51 GMT
+- request:
+    method: put
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-urlXIJSAE.txt
+    body:
+      encoding: UTF-8
+      base64_string: |
+        aHR0cDovL2V4YW1wbGUuY29tL2Fzc2lnbm1lbnRzLzEwMS5odG1s
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '39'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:51 GMT
+      Authorization:
+      - AWS <AWS_KEY>:yWBrytJl2KtvFj1FWgi9lBT23xs=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - DEN8PFod4SNXjy4w8dKwfEdwSSgpyDGPONf/dDy4HrULdULWAB+xJ8h9ppGPfohT
+      X-Amz-Request-Id:
+      - 6F18670FCD2E35C5
+      Date:
+      - Mon, 02 Sep 2013 20:38:52 GMT
+      Etag:
+      - '"5ea29c46e8ed41a4c5506583d14f0f3b"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:51 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-htmlKCVIMS.html
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - zYDudLzoXsT9pNLqQFHwkfIpEAtn3TBtzaCLws7KuQakfjKPiuT61Wr3SsBS8lV8
+      X-Amz-Request-Id:
+      - DB3081BEEF476326
+      Date:
+      - Mon, 02 Sep 2013 20:38:53 GMT
+      Last-Modified:
+      - Mon, 02 Sep 2013 20:38:52 GMT
+      Etag:
+      - '"40fb78bc8dd4a24c94bbc15c16b11eed"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - ''
+      Content-Length:
+      - '3790'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:52 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-urlXIJSAE.txt
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - 75fzKQ7CYkkOKNqi64obWk4EHE9bz8v7wTjLNsvFywdfoi69EYllk65hoIcffNH+
+      X-Amz-Request-Id:
+      - 02AF7ED29A5EE67A
+      Date:
+      - Mon, 02 Sep 2013 20:38:54 GMT
+      Last-Modified:
+      - Mon, 02 Sep 2013 20:38:52 GMT
+      Etag:
+      - '"5ea29c46e8ed41a4c5506583d14f0f3b"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - ''
+      Content-Length:
+      - '39'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:53 GMT
+- request:
+    method: delete
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-htmlKCVIMS.html
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:53 GMT
+      Authorization:
+      - AWS <AWS_KEY>:jfjg7l3MUR9R+cbUJEM2Uzs3Kbo=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - 4pIPgWDg88LAFR0NBHdQrAUkCTz2DsIqf0lViZ7Jz9kevhAQTBD0dWBRgvMKQhp2
+      X-Amz-Request-Id:
+      - 0D2395F633CE35A3
+      Date:
+      - Mon, 02 Sep 2013 20:38:54 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:53 GMT
+- request:
+    method: delete
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-urlXIJSAE.txt
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:53 GMT
+      Authorization:
+      - AWS <AWS_KEY>:yRswJ2txsRMcByxRdrgNPHTlibs=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - gWpZzj8EJhoDvZVhwC7WBIo0/kJi6cy4GJyyCiCoGO+Ant+xFpG+4zwgfFxwcOCd
+      X-Amz-Request-Id:
+      - E2C8219D2980128F
+      Date:
+      - Mon, 02 Sep 2013 20:38:55 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:54 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-htmlKCVIMS.html
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - B3E8C377C3F408FA
+      X-Amz-Id-2:
+      - pCjBiw+keEevqypfey+vdYQrETGWPNPdjuZhTYnUxiv/Xv9Y0DM866+VUGy4p2r0
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:38:53 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:54 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-urlXIJSAE.txt
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - B4FB90E3D898B433
+      X-Amz-Id-2:
+      - Z8Hqa47m5ACXr0lePfsUpMWd55JbE/XV/ZxRDQAuf5IQpt8zNYSiQ/DveKrzoKHf
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:38:54 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:55 GMT
+- request:
+    method: put
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-htmlKCVIMS.html
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PCFET0NUWVBFIGh0bWw+CjxodG1sPgo8aGVhZD4KICA8c2NyaXB0PgpmdW5j
+        dGlvbiBzZXRBbWF6b25Bc3NpZ25tZW50SWQoKSB7CiAgICB2YXIgcGFyYW1z
+        ID0gd2luZG93LmxvY2F0aW9uLnNlYXJjaC5zdWJzdHJpbmcoMSkuc3BsaXQo
+        JyYnKTsKICAgIHZhciBpID0gMDsKICAgIGZvciAoaSA9IDA7IGkgPCBwYXJh
+        bXMubGVuZ3RoOyBpKyspIHsKICAgICAgICB2YXIgcGFyYW0gPSBwYXJhbXNb
+        aV0uc3BsaXQoJz0nKTsKICAgICAgICB2YXIga2V5ID0gcGFyYW1bMF07CiAg
+        ICAgICAgdmFyIHZhbHVlID0gcGFyYW1bMV07CiAgICAgICAgaWYgKGtleSA9
+        PT0gJ2Fzc2lnbm1lbnRJZCcpIHsKICAgICAgICAgICAgaWYgKHZhbHVlID09
+        PSAnQVNTSUdOTUVOVF9JRF9OT1RfQVZBSUxBQkxFJykgewoJCXZhciBpbnB1
+        dCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdkaXNhYmxlX29uX3ByZXZp
+        ZXcnKTsKCQlpZiAoaW5wdXQpIHsKCQkgICAgaW5wdXQuc2V0QXR0cmlidXRl
+        KCdkaXNhYmxlZCcsICdkaXNhYmxlZCcpOwoJCSAgICB2YXIgc3BhbiA9IGRv
+        Y3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NwYW4nKTsKCQkgICAgc3Bhbi5zZXRB
+        dHRyaWJ1dGUoJ2NsYXNzJywgJ2Rpc2FibGVkX21lc3NhZ2UnKTsKCQkgICAg
+        c3Bhbi5hcHBlbmRDaGlsZChkb2N1bWVudC5jcmVhdGVUZXh0Tm9kZSgnIERp
+        c2FibGVkIGJlY2F1c2UgeW91IGFyZSBwcmV2aWV3aW5nIHRoaXMgSElULicp
+        KTsgCgkJICAgIHZhciBpbnB1dFNpYmxpbmcgPSBpbnB1dC5uZXh0U2libGlu
+        ZzsKCQkgICAgaWYgKGlucHV0U2libGluZykgewoJCQlpbnB1dC5wYXJlbnRO
+        b2RlLmluc2VydEJlZm9yZShzcGFuLCBpbnB1dFNpYmxpbmcpOwoJCSAgICB9
+        CgkJICAgIGVsc2UgewoJCQlpbnB1dC5wYXJlbnROb2RlLmFwcGVuZENoaWxk
+        KHNwYW4pOwoJCSAgICB9CgkJfQogICAgICAgICAgICB9CiAgICAgICAgICAg
+        IGVsc2UgewoJCWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhc3NpZ25tZW50
+        SWQnKS52YWx1ZSA9IHZhbHVlOwogICAgICAgICAgICB9CiAgICAgICAgfQog
+        ICAgICAgIGVsc2UgaWYgKGtleSA9PT0gJ3R1cmtTdWJtaXRUbycpIHsKICAg
+        ICAgICAgICAgdmFyIGZvcm0gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgn
+        dHVya0Zvcm0nKTsKICAgICAgICAgICAgaWYgKGZvcm0pIHsKCQlmb3JtLnNl
+        dEF0dHJpYnV0ZSgnYWN0aW9uJywgZGVjb2RlVVJJQ29tcG9uZW50KHZhbHVl
+        KSArICcvbXR1cmsvZXh0ZXJuYWxTdWJtaXQnKTsKICAgICAgICAgICAgfQog
+        ICAgICAgIH0KICAgIH0KfQoKPC9zY3JpcHQ+CiAgPHN0eWxlPgpib2R5IHsK
+        ICBjb2xvcjogYmxhY2s7CiAgYmFja2dyb3VuZDogd2hpdGU7ICAgIAogIGZv
+        bnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgIlRpbWVzIE5ldyBSb21hbiIs
+        IHNlcmlmOwp9CgpoMSwgaDIsIGgzLCBoNCwgaDUsIC5kaXNhYmxlZF9tZXNz
+        YWdlIHsKICBmb250LWZhbWlseTogSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1z
+        ZXJpZjsKfQoKcCB7CiAgbGluZS1oZWlnaHQ6IDE0MCU7Cn0KCi5kaXNhYmxl
+        ZF9tZXNzYWdlIHsKICBjb2xvcjogZ3JheTsKICBmb250LXNpemU6IHNtYWxs
+        Owp9Cgo8L3N0eWxlPgogIDx0aXRsZT5UcmFuc2NyaWJlIE1QMyBvZiAxLW1p
+        bnV0ZSBwaG9uZSBjYWxsbDwvdGl0bGU+CjwvaGVhZD4KCjxib2R5IG9ubG9h
+        ZD0ic2V0QW1hem9uQXNzaWdubWVudElkKCkiPgoKICA8aDI+VHJhbnNjcmli
+        ZSBNUDMgb2YgMS1taW51dGUgcGhvbmUgY2FsbDwvaDI+CiAgPHAgaWQ9ImRl
+        c2NyaXB0aW9uIj5JIHNwbGl0IHVwIGEgdGVsZXBob25lIGNvbnZlcnNhdGlv
+        biBpbnRvIDEtbWludXRlIHBhcnRzLCB5b3UgdHJhbnNjcmliZSB0aGUgYXVk
+        aW8gZm9yIG9uZSAxLW1pbnV0ZSBwYXJ0LjwvcD4KCiAgPGgzPkxhYmVsaW5n
+        PC9oMz4KICA8cD5UaGVyZSBhcmUgdHdvIHNwZWFrZXJzLiBUaGUgcGVyc29u
+        IGFza2luZyB0aGUgcXVlc3Rpb25zIGlzIDxzdHJvbmc+Unlhbjwvc3Ryb25n
+        Pi4gVGhlIHBlcnNvbiBhbnN3ZXJpbmcgdGhlIHF1ZXN0aW9ucywgb24gdGhl
+        IGRpc3RhbnQgZW5kIG9mIHRoZSB0ZWxlcGhvbmUgbGluZSwgaXMgPHN0cm9u
+        Zz5IYXZpPC9zdHJvbmc+LCBoYWNrZXIuIExhYmVsIGVhY2ggc3BlYWtlciB3
+        aXRoIGEgY29sb24sIGxpa2UgdGhpczo8L3A+CiAgPGJsb2NrcXVvdGU+CiAg
+        ICA8cD5SeWFuOiZuYnNwO0RvIHlvdSB0aGluayBpdCB3YXMgYSBtaXN0YWtl
+        IHRvIHNldCB1cCBTYXR1cm4gYXMgaXRzIG93biBDb3Jwb3JhdGlvbj88L3A+
+        CiAgICA8cD5IYXZpOiZuYnNwO0luIGhpbmRzaWdodCwgeW91IGNhbiBsb29r
+        IGF0IGl0IHRoYXQgd2F5LCBhbmQgSSB0aGluayBhIGxvdCBvZiBwZW9wbGUg
+        ZG8sIHF1aXRlIGhvbmVzdGx5LiBUaGV5IGRvbid0IHRoaW5rIEdNIG5lZWRl
+        ZCBhbm90aGVyIGJyYW5kLiBCdXQgYXQgdGhlIHRpbWUgdGhpcyB3YXMgYWxs
+        IGRldmVsb3BlZC4gSXQgc3VyZSBzZWVtZWQgbGlrZSBhIGdvb2QgaWRlYS48
+        L3A+CiAgPC9ibG9ja3F1b3RlPgoKICA8aDM+SW1wb3J0YW50PC9oMz4KICA8
+        dWw+CiAgICA8bGk+PHN0cm9uZz5VbnVzdWFsIHdvcmRzPC9zdHJvbmc+IHlv
+        dSBtaWdodCBoZWFyOiA8c3Ryb25nPkhhY2sgRGF5LCBTdW5ueXZhbGUsIENo
+        YWQgRDwvc3Ryb25nPjwvbGk+CiAgICA8bGk+PHN0cm9uZz5Eb24ndDwvc3Ry
+        b25nPiB0eXBlIHNob3J0IHJlc3BvbnNlcyBsaWtlIDxzdHJvbmc+eWE8L3N0
+        cm9uZz4sIDxzdHJvbmc+T0s8L3N0cm9uZz4sIDxzdHJvbmc+T2g8L3N0cm9u
+        Zz4sIDxzdHJvbmc+QWg8L3N0cm9uZz4sIGFuZCA8c3Ryb25nPk1tbWhtbTwv
+        c3Ryb25nPi4KICAgIDxsaT5Gb3IgPHN0cm9uZz5pbmF1ZGlibGU8L3N0cm9u
+        Zz4gd29yZHMsIHR5cGUgPHN0cm9uZz4/Pzwvc3Ryb25nPjwvbGk+CiAgPC91
+        bD4KCiAgPGgzPkluc3RydWN0aW9uczwvaDM+CiAgPHA+UGxlYXNlIDxzdHJv
+        bmc+dHJhbnNjcmliZTwvc3Ryb25nPiB0aGlzIDEtbWludXRlIE1QMzogPGEg
+        dGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHA6Ly93ZWJtYXNoZXIuY29tL210
+        dXJrL1Rlc3RUcEludGVydmlldy4wMC4wMC43NzQyMWUwYTYzMDJmNGM4YzM0
+        ZTI0MDA0YTRhZDgyOC5ZU09RSlUubXAzIj5odHRwOi8vd2VibWFzaGVyLmNv
+        bS9tdHVyay9UZXN0VHBJbnRlcnZpZXcuMDAuMDAuNzc0MjFlMGE2MzAyZjRj
+        OGMzNGUyNDAwNGE0YWQ4MjguWVNPUUpVLm1wMzwvYT48L3A+CiAgPGZvcm0g
+        YWN0aW9uPSJodHRwczovL3d3dy5tdHVyay5jb20vbXR1cmsvZXh0ZXJuYWxT
+        dWJtaXQiIG1ldGhvZD0iUE9TVCIgaWQ9InR1cmtGb3JtIj4KICAgIDxwPjxp
+        bnB1dCBuYW1lPSJhc3NpZ25tZW50SWQiIHR5cGU9ImhpZGRlbiIgaWQ9ImFz
+        c2lnbm1lbnRJZCI+PGlucHV0IG5hbWU9InR5cGluZ3Bvb2xfdXJsIiB0eXBl
+        PSJoaWRkZW4iIHZhbHVlPSJodHRwOi8vd2VibWFzaGVyLmNvbS9tdHVyay9U
+        ZXN0VHBJbnRlcnZpZXcuMDAuMDAuNzc0MjFlMGE2MzAyZjRjOGMzNGUyNDAw
+        NGE0YWQ4MjguWVNPUUpVLm1wMyIgLz48aW5wdXQgbmFtZT0idHlwaW5ncG9v
+        bF9wcm9qZWN0X2lkIiB0eXBlPSJoaWRkZW4iIHZhbHVlPSI3NzQyMWUwYTYz
+        MDJmNGM4YzM0ZTI0MDA0YTRhZDgyOCIgLz5FbnRlciB5b3VyIHRyYW5zY3Jp
+        cHRpb24gYmVsb3c6PC9wPgogICAgPHA+PHRleHRhcmVhIG5hbWU9InRyYW5z
+        Y3JpcHRpb24iIGNvbHM9IjgwIiByb3dzPSIxNSI+PC90ZXh0YXJlYT48L3A+
+        CiAgICA8cD48aW5wdXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iU3VibWl0IiBp
+        ZD0iZGlzYWJsZV9vbl9wcmV2aWV3Ij48L3A+CiAgPC9mb3JtPgoKPC9ib2R5
+        Pgo8L2h0bWw+Cg==
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '3790'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:55 GMT
+      Authorization:
+      - AWS <AWS_KEY>:y0aBGHj05FJylyR7pYveZ9qCju4=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - YcTgTWCLDIpg4MX8DGaLSeNNEefvGIsTzoLSd6+LxKKUhZi3aRVtaV9trah7IqVj
+      X-Amz-Request-Id:
+      - 0D7603D832338E63
+      Date:
+      - Mon, 02 Sep 2013 20:38:56 GMT
+      Etag:
+      - '"40fb78bc8dd4a24c94bbc15c16b11eed"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:56 GMT
+- request:
+    method: put
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-urlXIJSAE.txt
+    body:
+      encoding: UTF-8
+      base64_string: |
+        aHR0cDovL2V4YW1wbGUuY29tL2Fzc2lnbm1lbnRzLzEwMS5odG1s
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '39'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:56 GMT
+      Authorization:
+      - AWS <AWS_KEY>:ymC9rR0HYmjuoNQKP3pLBI4sjq8=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - oKQ5KK8dWPn3mNK4E5HpnzMBegkuBUjI/lNTkIaD7ZZjp/Ohc/cC4M4ggSBOGHbL
+      X-Amz-Request-Id:
+      - E45D91C14D6B61A5
+      Date:
+      - Mon, 02 Sep 2013 20:38:57 GMT
+      Etag:
+      - '"5ea29c46e8ed41a4c5506583d14f0f3b"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:56 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-htmlKCVIMS.html
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - 8cgqn7ZnVuALaxT5N7+YWoJzPGEYotsP8unxizLXf3jNgxm52zQweoBhjk6PXUsC
+      X-Amz-Request-Id:
+      - 45730EBC4DA882D0
+      Date:
+      - Mon, 02 Sep 2013 20:38:58 GMT
+      Last-Modified:
+      - Mon, 02 Sep 2013 20:38:56 GMT
+      Etag:
+      - '"40fb78bc8dd4a24c94bbc15c16b11eed"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - ''
+      Content-Length:
+      - '3790'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:57 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-urlXIJSAE.txt
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - ZVroxqEBB/qRXECzvw2bjp9ftRmv5n0ZzePBbOw03U1wiDlDYJntpfxgQ7X938DW
+      X-Amz-Request-Id:
+      - FD3168E625330F01
+      Date:
+      - Mon, 02 Sep 2013 20:38:58 GMT
+      Last-Modified:
+      - Mon, 02 Sep 2013 20:38:57 GMT
+      Etag:
+      - '"5ea29c46e8ed41a4c5506583d14f0f3b"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - ''
+      Content-Length:
+      - '39'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:57 GMT
+- request:
+    method: delete
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-htmlKCVIMS.html
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:57 GMT
+      Authorization:
+      - AWS <AWS_KEY>:DdZ6xkgzFnv1QQfUNvvKU3sKtog=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - zvdfy+jMMgUkme2+BA/6HpEtnuFHXlLUJPlLjXnkKWH1OuXbwjRulWQ+7ZkSSp0g
+      X-Amz-Request-Id:
+      - 5E6B72F7DE0176D5
+      Date:
+      - Mon, 02 Sep 2013 20:38:59 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:58 GMT
+- request:
+    method: delete
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-urlXIJSAE.txt
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:38:58 GMT
+      Authorization:
+      - AWS <AWS_KEY>:Nx3Og6Og+dD3Jp3//cIL4RXtuhw=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - 2hexMPoqQysNYHziIPgHWwsUFGI/kN9vmsY7iW8QvBSrccOl5MooLzDy7mGwjuTJ
+      X-Amz-Request-Id:
+      - CE6BAE1A723E3C63
+      Date:
+      - Mon, 02 Sep 2013 20:38:59 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:58 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-htmlKCVIMS.html
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - EDB4283102B803E5
+      X-Amz-Id-2:
+      - N9JdxRXM7LkC3Mxt7dZ8qpO1rGDDFCi/mOVXBrIxt2mz0ox2YsdDm+1K2FcAPabx
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:38:59 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:38:59 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-urlXIJSAE.txt
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - DF1348B96D7D8C1B
+      X-Amz-Id-2:
+      - 6ix2VbdlWkdBgx3rK591R3GdxInllGwX54xavgRxKOPwlQbG+wKJcbxb4Op7HRlc
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:38:59 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:39:00 GMT
+- request:
+    method: put
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-htmlKCVIMS.html
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PCFET0NUWVBFIGh0bWw+CjxodG1sPgo8aGVhZD4KICA8c2NyaXB0PgpmdW5j
+        dGlvbiBzZXRBbWF6b25Bc3NpZ25tZW50SWQoKSB7CiAgICB2YXIgcGFyYW1z
+        ID0gd2luZG93LmxvY2F0aW9uLnNlYXJjaC5zdWJzdHJpbmcoMSkuc3BsaXQo
+        JyYnKTsKICAgIHZhciBpID0gMDsKICAgIGZvciAoaSA9IDA7IGkgPCBwYXJh
+        bXMubGVuZ3RoOyBpKyspIHsKICAgICAgICB2YXIgcGFyYW0gPSBwYXJhbXNb
+        aV0uc3BsaXQoJz0nKTsKICAgICAgICB2YXIga2V5ID0gcGFyYW1bMF07CiAg
+        ICAgICAgdmFyIHZhbHVlID0gcGFyYW1bMV07CiAgICAgICAgaWYgKGtleSA9
+        PT0gJ2Fzc2lnbm1lbnRJZCcpIHsKICAgICAgICAgICAgaWYgKHZhbHVlID09
+        PSAnQVNTSUdOTUVOVF9JRF9OT1RfQVZBSUxBQkxFJykgewoJCXZhciBpbnB1
+        dCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdkaXNhYmxlX29uX3ByZXZp
+        ZXcnKTsKCQlpZiAoaW5wdXQpIHsKCQkgICAgaW5wdXQuc2V0QXR0cmlidXRl
+        KCdkaXNhYmxlZCcsICdkaXNhYmxlZCcpOwoJCSAgICB2YXIgc3BhbiA9IGRv
+        Y3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NwYW4nKTsKCQkgICAgc3Bhbi5zZXRB
+        dHRyaWJ1dGUoJ2NsYXNzJywgJ2Rpc2FibGVkX21lc3NhZ2UnKTsKCQkgICAg
+        c3Bhbi5hcHBlbmRDaGlsZChkb2N1bWVudC5jcmVhdGVUZXh0Tm9kZSgnIERp
+        c2FibGVkIGJlY2F1c2UgeW91IGFyZSBwcmV2aWV3aW5nIHRoaXMgSElULicp
+        KTsgCgkJICAgIHZhciBpbnB1dFNpYmxpbmcgPSBpbnB1dC5uZXh0U2libGlu
+        ZzsKCQkgICAgaWYgKGlucHV0U2libGluZykgewoJCQlpbnB1dC5wYXJlbnRO
+        b2RlLmluc2VydEJlZm9yZShzcGFuLCBpbnB1dFNpYmxpbmcpOwoJCSAgICB9
+        CgkJICAgIGVsc2UgewoJCQlpbnB1dC5wYXJlbnROb2RlLmFwcGVuZENoaWxk
+        KHNwYW4pOwoJCSAgICB9CgkJfQogICAgICAgICAgICB9CiAgICAgICAgICAg
+        IGVsc2UgewoJCWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhc3NpZ25tZW50
+        SWQnKS52YWx1ZSA9IHZhbHVlOwogICAgICAgICAgICB9CiAgICAgICAgfQog
+        ICAgICAgIGVsc2UgaWYgKGtleSA9PT0gJ3R1cmtTdWJtaXRUbycpIHsKICAg
+        ICAgICAgICAgdmFyIGZvcm0gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgn
+        dHVya0Zvcm0nKTsKICAgICAgICAgICAgaWYgKGZvcm0pIHsKCQlmb3JtLnNl
+        dEF0dHJpYnV0ZSgnYWN0aW9uJywgZGVjb2RlVVJJQ29tcG9uZW50KHZhbHVl
+        KSArICcvbXR1cmsvZXh0ZXJuYWxTdWJtaXQnKTsKICAgICAgICAgICAgfQog
+        ICAgICAgIH0KICAgIH0KfQoKPC9zY3JpcHQ+CiAgPHN0eWxlPgpib2R5IHsK
+        ICBjb2xvcjogYmxhY2s7CiAgYmFja2dyb3VuZDogd2hpdGU7ICAgIAogIGZv
+        bnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgIlRpbWVzIE5ldyBSb21hbiIs
+        IHNlcmlmOwp9CgpoMSwgaDIsIGgzLCBoNCwgaDUsIC5kaXNhYmxlZF9tZXNz
+        YWdlIHsKICBmb250LWZhbWlseTogSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1z
+        ZXJpZjsKfQoKcCB7CiAgbGluZS1oZWlnaHQ6IDE0MCU7Cn0KCi5kaXNhYmxl
+        ZF9tZXNzYWdlIHsKICBjb2xvcjogZ3JheTsKICBmb250LXNpemU6IHNtYWxs
+        Owp9Cgo8L3N0eWxlPgogIDx0aXRsZT5UcmFuc2NyaWJlIE1QMyBvZiAxLW1p
+        bnV0ZSBwaG9uZSBjYWxsbDwvdGl0bGU+CjwvaGVhZD4KCjxib2R5IG9ubG9h
+        ZD0ic2V0QW1hem9uQXNzaWdubWVudElkKCkiPgoKICA8aDI+VHJhbnNjcmli
+        ZSBNUDMgb2YgMS1taW51dGUgcGhvbmUgY2FsbDwvaDI+CiAgPHAgaWQ9ImRl
+        c2NyaXB0aW9uIj5JIHNwbGl0IHVwIGEgdGVsZXBob25lIGNvbnZlcnNhdGlv
+        biBpbnRvIDEtbWludXRlIHBhcnRzLCB5b3UgdHJhbnNjcmliZSB0aGUgYXVk
+        aW8gZm9yIG9uZSAxLW1pbnV0ZSBwYXJ0LjwvcD4KCiAgPGgzPkxhYmVsaW5n
+        PC9oMz4KICA8cD5UaGVyZSBhcmUgdHdvIHNwZWFrZXJzLiBUaGUgcGVyc29u
+        IGFza2luZyB0aGUgcXVlc3Rpb25zIGlzIDxzdHJvbmc+Unlhbjwvc3Ryb25n
+        Pi4gVGhlIHBlcnNvbiBhbnN3ZXJpbmcgdGhlIHF1ZXN0aW9ucywgb24gdGhl
+        IGRpc3RhbnQgZW5kIG9mIHRoZSB0ZWxlcGhvbmUgbGluZSwgaXMgPHN0cm9u
+        Zz5IYXZpPC9zdHJvbmc+LCBoYWNrZXIuIExhYmVsIGVhY2ggc3BlYWtlciB3
+        aXRoIGEgY29sb24sIGxpa2UgdGhpczo8L3A+CiAgPGJsb2NrcXVvdGU+CiAg
+        ICA8cD5SeWFuOiZuYnNwO0RvIHlvdSB0aGluayBpdCB3YXMgYSBtaXN0YWtl
+        IHRvIHNldCB1cCBTYXR1cm4gYXMgaXRzIG93biBDb3Jwb3JhdGlvbj88L3A+
+        CiAgICA8cD5IYXZpOiZuYnNwO0luIGhpbmRzaWdodCwgeW91IGNhbiBsb29r
+        IGF0IGl0IHRoYXQgd2F5LCBhbmQgSSB0aGluayBhIGxvdCBvZiBwZW9wbGUg
+        ZG8sIHF1aXRlIGhvbmVzdGx5LiBUaGV5IGRvbid0IHRoaW5rIEdNIG5lZWRl
+        ZCBhbm90aGVyIGJyYW5kLiBCdXQgYXQgdGhlIHRpbWUgdGhpcyB3YXMgYWxs
+        IGRldmVsb3BlZC4gSXQgc3VyZSBzZWVtZWQgbGlrZSBhIGdvb2QgaWRlYS48
+        L3A+CiAgPC9ibG9ja3F1b3RlPgoKICA8aDM+SW1wb3J0YW50PC9oMz4KICA8
+        dWw+CiAgICA8bGk+PHN0cm9uZz5VbnVzdWFsIHdvcmRzPC9zdHJvbmc+IHlv
+        dSBtaWdodCBoZWFyOiA8c3Ryb25nPkhhY2sgRGF5LCBTdW5ueXZhbGUsIENo
+        YWQgRDwvc3Ryb25nPjwvbGk+CiAgICA8bGk+PHN0cm9uZz5Eb24ndDwvc3Ry
+        b25nPiB0eXBlIHNob3J0IHJlc3BvbnNlcyBsaWtlIDxzdHJvbmc+eWE8L3N0
+        cm9uZz4sIDxzdHJvbmc+T0s8L3N0cm9uZz4sIDxzdHJvbmc+T2g8L3N0cm9u
+        Zz4sIDxzdHJvbmc+QWg8L3N0cm9uZz4sIGFuZCA8c3Ryb25nPk1tbWhtbTwv
+        c3Ryb25nPi4KICAgIDxsaT5Gb3IgPHN0cm9uZz5pbmF1ZGlibGU8L3N0cm9u
+        Zz4gd29yZHMsIHR5cGUgPHN0cm9uZz4/Pzwvc3Ryb25nPjwvbGk+CiAgPC91
+        bD4KCiAgPGgzPkluc3RydWN0aW9uczwvaDM+CiAgPHA+UGxlYXNlIDxzdHJv
+        bmc+dHJhbnNjcmliZTwvc3Ryb25nPiB0aGlzIDEtbWludXRlIE1QMzogPGEg
+        dGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHA6Ly93ZWJtYXNoZXIuY29tL210
+        dXJrL1Rlc3RUcEludGVydmlldy4wMC4wMC43NzQyMWUwYTYzMDJmNGM4YzM0
+        ZTI0MDA0YTRhZDgyOC5ZU09RSlUubXAzIj5odHRwOi8vd2VibWFzaGVyLmNv
+        bS9tdHVyay9UZXN0VHBJbnRlcnZpZXcuMDAuMDAuNzc0MjFlMGE2MzAyZjRj
+        OGMzNGUyNDAwNGE0YWQ4MjguWVNPUUpVLm1wMzwvYT48L3A+CiAgPGZvcm0g
+        YWN0aW9uPSJodHRwczovL3d3dy5tdHVyay5jb20vbXR1cmsvZXh0ZXJuYWxT
+        dWJtaXQiIG1ldGhvZD0iUE9TVCIgaWQ9InR1cmtGb3JtIj4KICAgIDxwPjxp
+        bnB1dCBuYW1lPSJhc3NpZ25tZW50SWQiIHR5cGU9ImhpZGRlbiIgaWQ9ImFz
+        c2lnbm1lbnRJZCI+PGlucHV0IG5hbWU9InR5cGluZ3Bvb2xfdXJsIiB0eXBl
+        PSJoaWRkZW4iIHZhbHVlPSJodHRwOi8vd2VibWFzaGVyLmNvbS9tdHVyay9U
+        ZXN0VHBJbnRlcnZpZXcuMDAuMDAuNzc0MjFlMGE2MzAyZjRjOGMzNGUyNDAw
+        NGE0YWQ4MjguWVNPUUpVLm1wMyIgLz48aW5wdXQgbmFtZT0idHlwaW5ncG9v
+        bF9wcm9qZWN0X2lkIiB0eXBlPSJoaWRkZW4iIHZhbHVlPSI3NzQyMWUwYTYz
+        MDJmNGM4YzM0ZTI0MDA0YTRhZDgyOCIgLz5FbnRlciB5b3VyIHRyYW5zY3Jp
+        cHRpb24gYmVsb3c6PC9wPgogICAgPHA+PHRleHRhcmVhIG5hbWU9InRyYW5z
+        Y3JpcHRpb24iIGNvbHM9IjgwIiByb3dzPSIxNSI+PC90ZXh0YXJlYT48L3A+
+        CiAgICA8cD48aW5wdXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iU3VibWl0IiBp
+        ZD0iZGlzYWJsZV9vbl9wcmV2aWV3Ij48L3A+CiAgPC9mb3JtPgoKPC9ib2R5
+        Pgo8L2h0bWw+Cg==
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '3790'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:39:00 GMT
+      Authorization:
+      - AWS <AWS_KEY>:pUAARiCERTfynkCs5/sySzg9dts=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - P9QE5n2O79QAkeRsY/2CTYFFL6Sp1xUfjBXnT9j0iuotw0Tu7DV0CTsa6qLs3LnV
+      X-Amz-Request-Id:
+      - 139976168826FC3E
+      Date:
+      - Mon, 02 Sep 2013 20:39:01 GMT
+      Etag:
+      - '"40fb78bc8dd4a24c94bbc15c16b11eed"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:39:00 GMT
+- request:
+    method: put
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-urlXIJSAE.txt
+    body:
+      encoding: UTF-8
+      base64_string: |
+        aHR0cDovL2V4YW1wbGUuY29tL2Fzc2lnbm1lbnRzLzEwMS5odG1s
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      Content-Length:
+      - '39'
+      X-Amz-Acl:
+      - public-read
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:39:00 GMT
+      Authorization:
+      - AWS <AWS_KEY>:U2pyvjw/YHIb9HfgsDRiLSAHusk=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - oc7e5n79HdkZok+Gl6hMTQsL9XmDlBo2OGHWldB+vIkRAxfPgQzSJ7nch90a2zWp
+      X-Amz-Request-Id:
+      - 7663BD86250FF8B9
+      Date:
+      - Mon, 02 Sep 2013 20:39:02 GMT
+      Etag:
+      - '"5ea29c46e8ed41a4c5506583d14f0f3b"'
+      Content-Length:
+      - '0'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:39:01 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-htmlKCVIMS.html
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - HygU8sarc2uD0xvLGt7QRfFiOVB+fbH4eWPugtAmKzzQpMj5O62in3kYoXHuisI5
+      X-Amz-Request-Id:
+      - 1E16F6DFEBE2CDDC
+      Date:
+      - Mon, 02 Sep 2013 20:39:03 GMT
+      Last-Modified:
+      - Mon, 02 Sep 2013 20:39:01 GMT
+      Etag:
+      - '"40fb78bc8dd4a24c94bbc15c16b11eed"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - ''
+      Content-Length:
+      - '3790'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:39:02 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-urlXIJSAE.txt
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - piHZyAkvAs3DkpjokWnkmhtoOPXU+igcHoEPvURoWPgqzZaf+mGJ4WAOMjtNn4cp
+      X-Amz-Request-Id:
+      - C098312224CFE9E9
+      Date:
+      - Mon, 02 Sep 2013 20:39:04 GMT
+      Last-Modified:
+      - Mon, 02 Sep 2013 20:39:02 GMT
+      Etag:
+      - '"5ea29c46e8ed41a4c5506583d14f0f3b"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - ''
+      Content-Length:
+      - '39'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:39:03 GMT
+- request:
+    method: delete
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-htmlKCVIMS.html
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:39:03 GMT
+      Authorization:
+      - AWS <AWS_KEY>:lYDve/cNiE8nvWYKZVHoiF2Ymjw=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - A1Psa7YtXv3I2ZLkeKLYPaQRNVtzklUW1R+644fN8UYOTQI0126hWXdbvc/jS5ef
+      X-Amz-Request-Id:
+      - 50C0FB8A1F2329DB
+      Date:
+      - Mon, 02 Sep 2013 20:39:05 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:39:04 GMT
+- request:
+    method: delete
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-urlXIJSAE.txt
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:39:04 GMT
+      Authorization:
+      - AWS <AWS_KEY>:HgbHPuek+maCqYzWNYr0ReyYhbA=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - fyGalX+Bn2HnhCZR1L3pGtZ9giS8cGqfVyHV+J2EbuHtX0aKNL3ZI5Tcv57SIOrv
+      X-Amz-Request-Id:
+      - 4EA0F71F85753C42
+      Date:
+      - Mon, 02 Sep 2013 20:39:05 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:39:04 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-htmlKCVIMS.html
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - 20BA8B1DF15022BF
+      X-Amz-Id-2:
+      - 2CIRjFxtTeBPb2/tpsM0tMYmy/nwx+rGAgRtK/XhJOqHzIevBZVA1l3D2eDjHb0Z
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:39:04 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:39:05 GMT
+- request:
+    method: head
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/amazon-question-urlXIJSAE.txt
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Amz-Request-Id:
+      - 1DD8DC2C72F256CF
+      X-Amz-Id-2:
+      - tdmw3Pe9B264IttI/PHi12g86a/QHJsRHp2pgPXe8ZGopVo2aL8SbeoHnnKnRWo/
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 02 Sep 2013 20:39:05 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:39:05 GMT
+- request:
+    method: get
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/?versioning
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:39:05 GMT
+      Authorization:
+      - AWS <AWS_KEY>:4opEOyyBdqwd5NiLODD1LAlE5O8=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - rBuCSY0aXyIRG3J/lTmhsm9RPa1c60ix+19oszmSQaJS539op3UdvdLFEQxK8vN9
+      X-Amz-Request-Id:
+      - B01FDF34B461E9AA
+      Date:
+      - Mon, 02 Sep 2013 20:39:07 GMT
+      Transfer-Encoding:
+      - chunked
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPFZlcnNp
+        b25pbmdDb25maWd1cmF0aW9uIHhtbG5zPSJodHRwOi8vczMuYW1hem9uYXdz
+        LmNvbS9kb2MvMjAwNi0wMy0wMS8iLz4=
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:39:06 GMT
+- request:
+    method: delete
+    uri: https://typingpool-test-dqq5p079j676t84d.s3.amazonaws.com/
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Content-Type:
+      - ''
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby/1.12.0 ruby/2.0.0 x86_64-darwin10.8.0
+      Date:
+      - Mon, 02 Sep 2013 20:39:06 GMT
+      Authorization:
+      - AWS <AWS_KEY>:vplSl+cJaFgrXThS2h45nZHBMcs=
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      X-Amz-Id-2:
+      - pNB7zH48Pqi7egg5fCeTVyyz8z6/foBAJIgM4zZtmfNhojsbT+VRxP8sCTiEX9aF
+      X-Amz-Request-Id:
+      - 8ED92C77D9F63104
+      Date:
+      - Mon, 02 Sep 2013 20:39:07 GMT
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      base64_string: ''
+    http_version: 
+  recorded_at: Mon, 02 Sep 2013 20:39:07 GMT
+recorded_with: VCR 2.5.0
